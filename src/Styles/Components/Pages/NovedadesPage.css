@@ -1,5 +1,4 @@
 #Superior{
-    width: 100vw;
     align-items: left;
     margin-top: 10vh;
     color: white;
@@ -11,17 +10,30 @@
 
 #Content1{
     height: 100vh;
-    background: linear-gradient(75deg, rgb(1, 104, 10), rgb(46, 46, 46));
+    background: linear-gradient(75deg, rgb(1, 104, 10), rgb(0, 0, 0));
     color: rgb(210, 255, 220);
 }
 
 #Content2{
     height: 100vh;
-    background: linear-gradient(275deg, rgb(252, 192, 30), rgb(255, 255, 255));
-    color: rgb(31, 31, 31);
+    background: linear-gradient(275deg, rgb(252, 74, 30), rgb(255, 255, 255));
+    color: rgb(0, 0, 0);
 }
 
-.informacion{
+#Content3{
+    height: 100vh;
+    background: linear-gradient(75deg, rgb(255, 217, 0), rgb(255, 255, 255));
+    color: rgb(0, 0, 0);
+}
+
+#MLibre{
+    float:  right;
+    width: 40vw;
+    height: 50vh;
+    margin-top: 30vh;
+}
+
+.left{
     max-width: 50vw;
     padding-top: 20vh;
 }

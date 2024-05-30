@@ -9,21 +9,30 @@ const New = (props)=>{
             </div>
             <div id="Content1">
                 <img src="https://fastly.jsdelivr.net/gh/persano/BannersWebMaximus/stickers/Logo%20maximus%202.0.svg" id="maximus"/>
-                <div class="informacion">
+                <div class="left">
                     <h1>Maximus Gaming: Una Fuente Clave para Obtener Precios Competitivos</h1>
-                    <p>En el mundo dinámico del comercio electrónico, la comparación de precios se ha convertido en una herramienta esencial para los consumidores que buscan obtener el mejor valor por su dinero. Entre los muchos dominios que proporcionan este servicio, Maximus Gaming se destaca como una fuente confiable y completa para obtener precios actualizados de una amplia variedad de productos.<br></br><br></br>
+                    <p>Elegir Maximus Gaming como tu dominio principal para obtener precios tiene múltiples beneficios. La precisión de su información, su amplia cobertura de tiendas y productos, y sus herramientas avanzadas de búsqueda y análisis, hacen de esta plataforma una herramienta indispensable para cualquier comprador astuto. Ya sea que estés buscando el último hardware de gaming, componentes de PC, o cualquier otro producto tecnológico, Maximus Gaming te ayuda a encontrar las mejores ofertas disponibles en el mercado.<br></br><br></br>
 
-                    Maximus Gaming es una plataforma dedicada a la recopilación y comparación de precios de productos en diversas categorías, con un enfoque especial en artículos de tecnología y gaming. Su robusta infraestructura tecnológica permite a los usuarios acceder a una base de datos extensa y en constante actualización, garantizando que la información de precios sea precisa y relevante.</p>
+                    En resumen, Maximus Gaming no solo facilita la comparación de precios, sino que también empodera a los consumidores con información detallada y actualizada, asegurando que cada compra sea una compra inteligente.</p>
                 </div>
             </div>
             <div id="Content2">
                 <div class="right">
-                    <h1>Maximus Gaming: Una Fuente Clave para Obtener Precios Competitivos</h1>
-                    <p>En el mundo dinámico del comercio electrónico, la comparación de precios se ha convertido en una herramienta esencial para los consumidores que buscan obtener el mejor valor por su dinero. Entre los muchos dominios que proporcionan este servicio, Maximus Gaming se destaca como una fuente confiable y completa para obtener precios actualizados de una amplia variedad de productos.<br></br><br></br>
+                    <h1>Compra Gamer: Una Fuente Clave para Obtener Precios Competitivos</h1>
+                    <p>Elegir Compra Gamer como tu dominio principal para obtener precios tiene múltiples beneficios. La precisión de su información, su amplia cobertura de tiendas y productos, y sus herramientas avanzadas de búsqueda y análisis, hacen de esta plataforma una herramienta indispensable para cualquier comprador astuto. Ya sea que estés buscando el último hardware de gaming, componentes de PC, o cualquier otro producto tecnológico, Compra Gamer te ayuda a encontrar las mejores ofertas disponibles en el mercado.<br></br><br></br>
 
-                    Maximus Gaming es una plataforma dedicada a la recopilación y comparación de precios de productos en diversas categorías, con un enfoque especial en artículos de tecnología y gaming. Su robusta infraestructura tecnológica permite a los usuarios acceder a una base de datos extensa y en constante actualización, garantizando que la información de precios sea precisa y relevante.</p>
+                    En resumen, Compra Gamer no solo facilita la comparación de precios, sino que también empodera a los consumidores con información detallada y actualizada, asegurando que cada compra sea una compra inteligente.</p>
                 </div>
-                <img src="https://fastly.jsdelivr.net/gh/persano/BannersWebMaximus/stickers/Logo%20maximus%202.0.svg" id="CGamer"/>
+                <img src="https://imagenes.compragamer.com/assets/logos/logo-fix.png" id="CGamer"/>
+            </div>
+            <div id="Content3">
+                <img src="https://imgs.search.brave.com/2qBf27GWeormwjakq-OCM1LjfhnLLaFqPzJAR3c142A/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9tZXJjYWRvbGli/cmUuc3Zn.svg" id="MLibre"/>
+                <div class="left">
+                    <h1>Mercado Libre: Una Fuente Clave para Obtener Precios Competitivos</h1>
+                    <p>Elegir Mercado Libre como tu dominio principal para obtener precios tiene múltiples beneficios. La precisión de su información, su amplia cobertura de vendedores y productos, y sus herramientas avanzadas de búsqueda y análisis, hacen de esta plataforma una herramienta indispensable para cualquier comprador astuto. Ya sea que estés buscando el último gadget tecnológico, componentes de PC, ropa de moda, o cualquier otro producto, Mercado Libre te ayuda a encontrar las mejores ofertas disponibles en el mercado.<br></br><br></br>
+
+                    En resumen, Mercado Libre no solo facilita la comparación de precios, sino que también empodera a los consumidores con información detallada y actualizada, asegurando que cada compra sea una compra inteligente.</p>
+                </div>
             </div>
         </div>
     );
