@@ -3,14 +3,12 @@ import { pag } from '../../App';
 import Home from '../../pages/HomePag';
 import { Link } from 'react-router-dom';
 
-
-
-const Nav = (props)=>{
+const Nav = (props) => {
     useEffect(() => {
         let menu = document.getElementById("menuh");
         const menuLink = document.getElementById("menuLink");
         let rotated = false;
-    
+
         const handleClick = (event) => {
             event.preventDefault(); // Prevenir el comportamiento por defecto del enlace
             if (menu.classList.contains("show")) {
@@ -40,9 +38,9 @@ const Nav = (props)=>{
             }
             rotated = !rotated;
         };
-    
+
         document.querySelector(".menu-link").addEventListener("click", handleClick);
-    
+
         return () => {
             document.querySelector(".menu-link").removeEventListener("click", handleClick);
         };
@@ -58,9 +56,9 @@ const Nav = (props)=>{
             </div>
             <div id="divdiv">
                 <ul id="listaNav">
-                <li><Link to="/"><button><img src="./imagenes/casa.png" class="INav" /><span class="text">Inicio</span></button></Link></li>
+                <li><Link to="/" className="no-underline"><button><img src="./imagenes/casa.png" class="INav" /><span class="text">Inicio</span></button></Link></li>
                 <li><button><img src="./imagenes/tienda.png" class="INav" /><span class="text">Tienda</span></button></li>
-                <li><Link to="/Novedades"><button><img src="./imagenes/novedades.png" class="INav" /><span class="text">Novedades</span></button></Link></li>
+                <li><Link to="/Novedades" className="no-underline"><button><img src="./imagenes/novedades.png" class="INav" /><span class="text">Novedades</span></button></Link></li>
                 </ul>
             </div>
             <a class="menu-link" id="menuLink"><img src="./imagenes/menu.png" alt="Menu Hamburgesa" class="menu"/></a>
@@ -68,7 +66,7 @@ const Nav = (props)=>{
     <div id="menuh">
         <ul>
             <p>Navegacion</p>
-                <li><Link to="/Contacto"><button><img src="./imagenes/nosotros.png" class="burger"/><span>Contactanos</span></button></Link></li>
+                <li><Link to="/Contacto" className="no-underline"><button><img src="./imagenes/nosotros.png" class="burger"/><span>Contactanos</span></button></Link></li>
             <p>Usuario</p>
                 <li><button><img src="./imagenes/usuario.png" class="burger"/><span>Cuenta</span></button></li>
                 <li><button><img src="./imagenes/fav.png" class="burger"/><span>Favoritos</span></button></li>

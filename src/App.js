@@ -9,7 +9,6 @@ import './Styles/Components/Pages/ContactoPage.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import New from './pages/NosotrosPage';
 
-
 function App(cont) {
   return (
     <div className="App">

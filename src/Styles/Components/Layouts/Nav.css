@@ -3,6 +3,10 @@ body {
     height: 100vh; /* Aseguramos que el body ocupe toda la pantalla */
 }
 
+.no-underline {
+    text-decoration: none;
+}
+
 #nav {
     display: flex;
     justify-content: space-between;
