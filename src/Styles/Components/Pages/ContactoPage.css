@@ -24,7 +24,13 @@ body{
     border: 0.2vh black solid;
 }
 
-#divContacto{display: flex;flex-direction: column;align-items: center;justify-content: center;text-align: center;}
+#divContacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
 
 .intro{
     position: relative;

@@ -10,8 +10,8 @@ const Home = (props)=>{
 
         </div>
         <div id="imagenes">
-            <img src="Imagenes/1.jpg" alt=""/>
-            <img src="Imagenes/5.jpg" alt=""/>
+            <img src="./Imagenes/fav.jpg" alt=""/>
+            <img src="./Imagenes/frutas.jpg" alt=""/>
         </div>
     </div>
     );

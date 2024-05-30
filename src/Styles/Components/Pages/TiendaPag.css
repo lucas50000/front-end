@@ -1,0 +1,42 @@
+#divTienda{
+    background-color: rgb(237, 229, 229);
+    margin-top: 10vh;
+    height: 100vh;
+    width: 100vw;
+}
+#gridTienda{
+    display: grid;
+    position: relative;
+    width: 70%;
+    margin-left: 15%;
+    grid-template-columns: repeat(3,1fr);
+    top: 1vh;
+}
+.producto{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 0;
+    border-radius: 4px;
+    height: 50vh;
+    margin: 0 8px 16px;
+    max-width: 1184px;
+    padding: 0;
+    width: 284px;
+    list-style-type: none;
+    background-color: white;
+}
+.productoImagen{
+    box-sizing: border-box;
+    height: 100%;
+    justify-content: start;
+    padding: 2px;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}
+
+.productoImagen img{
+    width: 100%;
+    height: 45%;
+}

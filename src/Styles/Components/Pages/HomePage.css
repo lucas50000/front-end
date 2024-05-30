@@ -10,6 +10,7 @@ body{
     width: 100vw;
     background-color:#f1e8ae;
     grid-template-rows: 200px;
+    margin-top: 10vh;
 }
 #titulo{
     grid-column: 2;

@@ -57,7 +57,7 @@ const Nav = (props) => {
             <div id="divdiv">
                 <ul id="listaNav">
                 <li><Link to="/" className="no-underline"><button><img src="./imagenes/casa.png" class="INav" /><span class="text">Inicio</span></button></Link></li>
-                <li><button><img src="./imagenes/tienda.png" class="INav" /><span class="text">Tienda</span></button></li>
+                <li><Link to="/Tienda" className="no-underline"><button><img src="./imagenes/tienda.png" class="INav" /><span class="text">Tienda</span></button></Link></li>
                 <li><Link to="/Novedades" className="no-underline"><button><img src="./imagenes/novedades.png" class="INav" /><span class="text">Novedades</span></button></Link></li>
                 </ul>
             </div>
