@@ -7,7 +7,7 @@ import "./Styles/Components/Pages/HomePage.css";
 import ContactoPage from './pages/ContactoPage';
 import './Styles/Components/Pages/ContactoPage.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import New from './pages/NosotrosPage';
+import New from './pages/NovedadesPage';
 
 function App(cont) {
   return (

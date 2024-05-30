@@ -6,6 +6,7 @@ body{
 #bienvenidos{
     display: grid;
     grid-template-columns: 0.5fr 5fr 6fr 0.5fr;
+    height: 100vh;
     width: 100vw;
     background-color:#f1e8ae;
     grid-template-rows: 200px;
