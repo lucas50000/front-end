@@ -1,0 +1,54 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+#bienvenidos{
+    display: grid;
+    grid-template-columns: 0.5fr 5fr 6fr 0.5fr;
+    width: 100vw;
+    background-color:#f1e8ae;
+    grid-template-rows: 200px;
+}
+#titulo{
+    grid-column: 2;
+    border: 0;
+    margin-top: 10%;
+    font-size: 250%;
+}
+#texto{
+    grid-column: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    gap: -200px;
+}
+#boton{
+    color: white;
+    background-color:#5a6971 ;
+    border-radius: 8px;
+    max-width: 26%;
+    min-height: 25%;
+    margin-top: 5%;
+    font-size: large;
+}
+#imagenes{
+    grid-column: 2/-2;
+    grid-row: 2;
+    height: 200px;
+    display: flex;
+    gap: 3%;
+    margin-top: 20px;
+    padding-bottom: 2%;
+    height: 40vh;
+}
+#imagenes :nth-child(1){
+    position: relative;
+    width: 30%;
+    height: 100%;
+}
+#imagenes :nth-child(2){
+    position: relative;
+    width: 67%;
+    height: 100%;
+}
