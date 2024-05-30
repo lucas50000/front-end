@@ -7,6 +7,7 @@ import "./Styles/Components/Pages/HomePage.css";
 import ContactoPage from './pages/ContactoPage';
 import './Styles/Components/Pages/ContactoPage.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import New from './pages/NosotrosPage';
 
 
 function App(cont) {
@@ -16,6 +17,7 @@ function App(cont) {
         <Nav />
         <Routes>
           <Route path='/' element={<Home/>}/>
+          <Route path='/Novedades' element={<New/>}/>
           <Route path='/Contacto' element={<ContactoPage/>}/>
         </Routes>
       </BrowserRouter>

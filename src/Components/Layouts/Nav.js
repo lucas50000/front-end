@@ -60,7 +60,7 @@ const Nav = (props)=>{
                 <ul id="listaNav">
                 <li><Link to="/"><button><img src="./imagenes/casa.png" class="INav" /><span class="text">Inicio</span></button></Link></li>
                 <li><button><img src="./imagenes/tienda.png" class="INav" /><span class="text">Tienda</span></button></li>
-                <li><Link to="/Contacto"><button><img src="./imagenes/nosotros.png" class="INav" /><span class="text">Contacto</span></button></Link></li>
+                <li><Link to="/Novedades"><button><img src="./imagenes/novedades.png" class="INav" /><span class="text">Novedades</span></button></Link></li>
                 </ul>
             </div>
             <a class="menu-link" id="menuLink"><img src="./imagenes/menu.png" alt="Menu Hamburgesa" class="menu"/></a>
@@ -68,10 +68,10 @@ const Nav = (props)=>{
     <div id="menuh">
         <ul>
             <p>Navegacion</p>
-                
+                <li><Link to="/Contacto"><button><img src="./imagenes/nosotros.png" class="burger"/><span>Contactanos</span></button></Link></li>
             <p>Usuario</p>
                 <li><button><img src="./imagenes/usuario.png" class="burger"/><span>Cuenta</span></button></li>
-                <li><button><img src="./imagenes/fav.png" class="burger"/><span>Lista Favoritos</span></button></li>
+                <li><button><img src="./imagenes/fav.png" class="burger"/><span>Favoritos</span></button></li>
                 <li><button><img src=".\imagenes\Conf-usu.png" class="burger"/><span>Configurar Cuenta</span></button></li>
             <p>Pagina</p>
                 <li><button><img src="./imagenes/reportar.png" class="burger"/><span>Reportar Error</span></button></li>
