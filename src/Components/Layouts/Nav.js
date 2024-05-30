@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { pag } from '../../App';
 import Home from '../../pages/HomePag';
+import { Link } from 'react-router-dom';
 
 
 
@@ -57,9 +58,9 @@ const Nav = (props)=>{
             </div>
             <div id="divdiv">
                 <ul id="listaNav">
-                <li><button><img src="./imagenes/casa.png" class="INav" /><span class="text">Inicio</span></button></li>
+                <li><Link to="/"><button><img src="./imagenes/casa.png" class="INav" /><span class="text">Inicio</span></button></Link></li>
                 <li><button><img src="./imagenes/tienda.png" class="INav" /><span class="text">Tienda</span></button></li>
-                <li><button><img src="./imagenes/nosotros.png" class="INav" /><span class="text">Contacto</span></button></li>
+                <li><Link to="/Contacto"><button><img src="./imagenes/nosotros.png" class="INav" /><span class="text">Contacto</span></button></Link></li>
                 </ul>
             </div>
             <a class="menu-link" id="menuLink"><img src="./imagenes/menu.png" alt="Menu Hamburgesa" class="menu"/></a>
