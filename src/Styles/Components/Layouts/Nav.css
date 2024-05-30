@@ -1,8 +1,6 @@
 body {
     margin: 0;
     height: 100vh; /* Aseguramos que el body ocupe toda la pantalla */
-    display: flex;
-    flex-direction: column;
 }
 
 #nav {
