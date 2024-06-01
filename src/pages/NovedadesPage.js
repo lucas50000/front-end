@@ -65,6 +65,24 @@ const New = () => {
                     En resumen, Mercado Libre no solo facilita la comparación de precios, sino que también empodera a los consumidores con información detallada y actualizada, asegurando que cada compra sea una compra inteligente.</p>
                 </div>
             </div>
+            <div id="Content4">
+                <div className="right animated-right">
+                    <h1>Mercado Libre: Una Fuente Clave para Obtener Precios Competitivos</h1>
+                    <p>Elegir Mercado Libre como tu dominio principal para obtener precios tiene múltiples beneficios. La precisión de su información, su amplia cobertura de vendedores y productos, y sus herramientas avanzadas de búsqueda y análisis, hacen de esta plataforma una herramienta indispensable para cualquier comprador astuto. Ya sea que estés buscando el último gadget tecnológico, componentes de PC, ropa de moda, o cualquier otro producto, Mercado Libre te ayuda a encontrar las mejores ofertas disponibles en el mercado.<br /><br />
+
+                    En resumen, Mercado Libre no solo facilita la comparación de precios, sino que también empodera a los consumidores con información detallada y actualizada, asegurando que cada compra sea una compra inteligente.</p>
+                </div>
+                <img src="https://diaio.vtexassets.com/assets/vtex.file-manager-graphql/images/2ed8a7a3-95d4-4db2-897c-1370d972f8cd___35f8793fd5e07272ffdf01407f8cc7b5.svg" id="dia" className="animated-left" />
+            </div>
+            <div id="Content5">
+                <img src="https://imgs.search.brave.com/s8c0ZkKGNGVDpUoyLkfEH31aFav1Qihpexqh6E2tCEQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly8xMDAw/bG9nb3MubmV0L3dw/LWNvbnRlbnQvdXBs/b2Fkcy8yMDE3LzA1/L1dhbG1hcnQtTG9n/by01MDB4MjgxLnBu/Zw" id="walmart" className="animated-right" />
+                <div className="left animated-left">
+                    <h1>Mercado Libre: Una Fuente Clave para Obtener Precios Competitivos</h1>
+                    <p>Elegir Mercado Libre como tu dominio principal para obtener precios tiene múltiples beneficios. La precisión de su información, su amplia cobertura de vendedores y productos, y sus herramientas avanzadas de búsqueda y análisis, hacen de esta plataforma una herramienta indispensable para cualquier comprador astuto. Ya sea que estés buscando el último gadget tecnológico, componentes de PC, ropa de moda, o cualquier otro producto, Mercado Libre te ayuda a encontrar las mejores ofertas disponibles en el mercado.<br /><br />
+
+                    En resumen, Mercado Libre no solo facilita la comparación de precios, sino que también empodera a los consumidores con información detallada y actualizada, asegurando que cada compra sea una compra inteligente.</p>
+                </div>
+            </div>
         </div>
     );
 }
