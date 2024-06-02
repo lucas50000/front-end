@@ -1,8 +1,8 @@
-#divTienda{
+
+body{
     background-color: rgb(237, 229, 229);
     margin-top: 10vh;
-    height: 100vh;
-    width: 100vw;
+    height:max-content;
 }
 #gridTienda{
     display: grid;
@@ -19,12 +19,29 @@
     border: 0;
     border-radius: 4px;
     height: 50vh;
-    margin: 0 8px 16px;
+    margin: 2.1vh 1vh;
     max-width: 1184px;
     padding: 0;
     width: 284px;
     list-style-type: none;
     background-color: white;
+}
+.productoContenedor{
+    border: 0;
+    border-radius: 4px 4px 0 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 0;
+    transition: box-shadow .2s ease-in-out;
+    width: 100%;
+}
+.productolink{
+    display:block;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
 }
 .productoImagen{
     box-sizing: border-box;

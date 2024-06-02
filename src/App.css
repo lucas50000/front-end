@@ -12,5 +12,5 @@ body::-webkit-scrollbar-thumb {
 
 body{
   overflow-y: auto;
-  overflow-x: none;
+  overflow-x: hidden;
 }

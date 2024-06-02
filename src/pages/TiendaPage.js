@@ -6,11 +6,54 @@ const TiendaPage = (props) => {
         <ol id='gridTienda'>
           <li className='producto'>
             <div className="productoImagen">
+              <a href='3' className='productolink'>
+              <div className='productoContenedor'>
               <img src='./imagenes/casa.png'></img>
-              <p>20.000</p>
+              
+              </div>
+              </a>
             </div>
           </li>
-    
+          <li className='producto'>
+            <div className="productoImagen">
+              <a href='3' className='productolink'>
+              <img src='./imagenes/casa.png'></img>
+              <p>20.000</p>
+              </a>
+            </div>
+          </li>
+          <li className='producto'>
+            <div className="productoImagen">
+              <a href='3' className='productolink'>
+              <img src='./imagenes/casa.png'></img>
+              <p>20.000</p>
+              </a>
+            </div>
+          </li>
+          <li className='producto'>
+            <div className="productoImagen">
+              <a href='3' className='productolink'>
+              <img src='./imagenes/casa.png'></img>
+              <p>20.000</p>
+              </a>
+            </div>
+          </li>
+          <li className='producto'>
+            <div className="productoImagen">
+              <a href='3' className='productolink'>
+              <img src='./imagenes/casa.png'></img>
+              <p>20.000</p>
+              </a>
+            </div>
+          </li>
+          <li className='producto'>
+            <div className="productoImagen">
+              <a href='3' className='productolink'>
+              <img src='./imagenes/casa.png'></img>
+              <p>20.000</p>
+              </a>
+            </div>
+          </li>
         </ol>
     </div>
   );
