@@ -16,15 +16,15 @@ body{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    border: 0;
+    border: 1px solid rgb(240, 240, 240);
     border-radius: 4px;
-    height: 50vh;
+    height: 60vh;
     margin: 2.1vh 1vh;
-    max-width: 1184px;
     padding: 0;
-    width: 284px;
+    width: 16rem;
     list-style-type: none;
-    background-color: white;
+    background-color: #fff;
+    padding-right: 1.5rem;
 }
 .productoContenedor{
     border: 0;
@@ -42,18 +42,27 @@ body{
     color: black;
     width: 100%;
     height: 100%;
-}
-.productoImagen{
     box-sizing: border-box;
-    height: 100%;
     justify-content: start;
     padding: 2px;
     text-align: center;
+}
+.productoTexto{
+    font-family: "Roboto", sans-serif;
+    width: 100%;
+    text-align: left;
+    padding-left:2% ;
+}
+.productoDescripcion{
+    font-size: large;
+}
+.productoPrecio{
+    text-wrap: 2%;
+}
+.productoImagen{
+    text-align: center;
     vertical-align: top;
+    height: 16rem;
     width: 100%;
 }
 
-.productoImagen img{
-    width: 100%;
-    height: 45%;
-}
