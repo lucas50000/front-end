@@ -11,7 +11,8 @@ import New from './pages/NovedadesPage';
 import './Styles/Components/Pages/NovedadesPage.css';
 import TiendaPage from './pages/TiendaPage';
 import './Styles/Components/Pages/TiendaPag.css';
-
+import Footer from './Components/Layouts/Footer';
+import "./Styles/Components/Layouts/Footer.css";
 function App(cont) {
   return (
     <div className="App">
@@ -23,6 +24,7 @@ function App(cont) {
           <Route path='/Contacto' element={<ContactoPage/>}/>
           <Route path='/Tienda' element={<TiendaPage/>}/>
         </Routes>
+        <Footer/>
       </BrowserRouter>
     </div>
   );
