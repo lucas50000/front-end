@@ -7,9 +7,11 @@ body{
 #gridTienda{
     display: grid;
     position: relative;
-    width: 70%;
+    gap: 1%;
+    min-width: min-content;
     margin-left: 15%;
-    grid-template-columns: repeat(3,1fr);
+    margin-right: 15%;
+    grid-template-columns:  repeat(auto-fill,minmax(16rem,1fr));
     top: 1vh;
 }
 .producto{
@@ -36,7 +38,7 @@ body{
     pointer-events: none;
     float:left;
     content: "";
-    background-color: rgba(128, 128, 128, 0.156);
+    background-color: rgba(165, 164, 164, 0.156);
     width: 16rem;
     height: 100%;
     cursor: pointer;
@@ -78,7 +80,7 @@ body{
 .productoImagen{
     text-align: center;
     vertical-align: top;
-    height: 16rem;
+    height: 70%;
     width: 100%;
 }
 
