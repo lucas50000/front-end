@@ -1,0 +1,13 @@
+//paleta del home (
+
+#627254 rgb(98, 114, 84)
+
+#76885B rgb(118, 136, 91)
+
+#DDDDDD rgb(221, 221, 221)
+
+#EEEEEE rgb(238, 238, 238)
+
+Link:https://colorhunt.co/palette/62725476885bddddddeeeeee
+
+)

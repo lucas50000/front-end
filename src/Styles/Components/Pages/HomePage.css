@@ -8,7 +8,7 @@ body {
   grid-template-columns: 0.5fr 3fr 6fr 0.5fr;
   height: 100vh;
   width: 100%;
-  background-color: #f1e8ae;
+  background-color: #6c7c53;
   grid-template-rows: 200px;
   margin-top: 5vh;
 
@@ -20,6 +20,7 @@ body {
   border: 0;
   margin-top: 9%;
   font-size: 350%;
+  color: #EEEEEE;
 }
 
 #texto {
@@ -28,11 +29,12 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   gap: -200px;
+  color: #DDDDDD;
 }
 
 #boton {
-  color: white;
-  background-color: #5a6971;
+  color: #EEEEEE;
+  background-color: #4f5c44;
   border-radius: 8px;
   max-width: 26%;
   min-height: 25%;
@@ -40,6 +42,7 @@ body {
   font-size: large;
   margin-bottom: 4vh;
 }
+
 #imagenes {
   grid-column: 1/-2;
   grid-row: 2;
@@ -49,16 +52,17 @@ body {
   margin-top: 20px;
   height: 50vh;
 }
+
 #imagenes :nth-child(1) {
   position: relative;
   width: 30%;
   height: 100%;
   margin-left: 2vw;
-  border-radius: 2px;
+  border-radius: 5px;
 }
 #imagenes :nth-child(2) {
   position: relative;
   width: 70%;
   height: 100%;
-  border-radius: 2px;
+  border-radius: 5px;
 }

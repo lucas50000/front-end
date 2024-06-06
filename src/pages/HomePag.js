@@ -12,7 +12,7 @@ const Home = (props) => {
         <button id="boton">Explorar </button>
       </div>
       <div id="imagenes">
-        <img src="./imagenes/Juan.jpg" alt="juan peruano" />
+        <img src="./imagenes/carrito.jpg" alt="juan peruano" />
         <img src="./Imagenes/frutas.jpg" alt="juan peruano" />
       </div>
     </div>
