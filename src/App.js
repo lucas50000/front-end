@@ -15,6 +15,9 @@ import TiendaPage from './pages/TiendaPage';
 import './Styles/Components/Pages/TiendaPag.css';
 import Footer from './Components/Layouts/Footer';
 import "./Styles/Components/Layouts/Footer.css";
+import fav from './pages/FavoritoPage';
+import './Styles/Components/Pages/FavoritoPage.css';
+import Fav from './pages/FavoritoPage';
 
 function App(cont) {
   return (
@@ -26,6 +29,7 @@ function App(cont) {
           <Route path='/Novedades' element={<New/>}/>
           <Route path='/Contacto' element={<ContactoPage/>}/>
           <Route path='/Tienda' element={<TiendaPage/>}/>
+          <Route path='/Usuario/Favorito' element={<Fav/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>
