@@ -27,35 +27,21 @@ body{
     background-color: #fff;
     padding-right: 1.5rem;
 }
-.producto2 {
-    position: relative;
-}
 
-.hover-effect {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%; /* O ajusta según necesites */
-    height: 100%; /* O ajusta según necesites */
-    background-color: rgba(128, 128, 128, 0.382);
-    display: none; /* Ocultar por defecto */
-}
-
-.producto:hover .hover-effect {
-    display: block; /* Mostrar cuando el .producto es hover */
-}
 
 .producto:hover::before{
     position: absolute;
     top: 0;
     left: 0;
+    pointer-events: none;
     float:left;
     content: "";
-    background-color: rgba(128, 128, 128, 0.382);
+    background-color: rgba(128, 128, 128, 0.156);
     width: 16rem;
     height: 100%;
     cursor: pointer;
 }
+
 .productoContenedor{
     border: 0;
     border-radius: 4px 4px 0 0;
