@@ -15,9 +15,9 @@ import TiendaPage from './pages/TiendaPage';
 import './Styles/Components/Pages/TiendaPag.css';
 import Footer from './Components/Layouts/Footer';
 import "./Styles/Components/Layouts/Footer.css";
-import fav from './pages/FavoritoPage';
 import './Styles/Components/Pages/FavoritoPage.css';
 import Fav from './pages/FavoritoPage';
+alert('Peru')
 
 function App(cont) {
   return (

@@ -8,19 +8,20 @@ body {
   grid-template-columns: 0.5fr 3fr 6fr 0.5fr;
   height: 100vh;
   width: 100%;
-  background-color: #6c7c53;
+  background-color: #a8a8a8;
   grid-template-rows: 200px;
   margin-top: 5vh;
 
 }
 
 #titulo {
+  border: black 1vh solid;
   grid-template-columns: 5px;
   grid-column: 2;
   border: 0;
   margin-top: 9%;
   font-size: 350%;
-  color: #EEEEEE;
+  color: #ffffff;
 }
 
 #texto {
@@ -29,12 +30,12 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   gap: -200px;
-  color: #DDDDDD;
+  color: rgb(71, 71, 71);
 }
 
 #boton {
   color: #EEEEEE;
-  background-color: #4f5c44;
+  background-color: #3d3d3d;
   border-radius: 8px;
   max-width: 26%;
   min-height: 25%;
