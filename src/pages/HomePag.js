@@ -16,6 +16,6 @@ const Home = (props) => {
         <img src="./Imagenes/frutas.jpg" alt="juan peruano" />
       </div>
     </div>
-  )
+  );
 };
 export default Home;
