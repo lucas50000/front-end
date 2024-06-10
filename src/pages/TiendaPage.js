@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const TiendaPage = (props) => {
   return (
     <div>
@@ -26,8 +27,8 @@ const TiendaPage = (props) => {
                 <div className='productoContenedor'>
                   <img src='https://http2.mlstatic.com/D_Q_NP_991845-MLA74734455351_022024-W.webp' className='productoImagen'></img>
                   <div className='productoTexto'>
-                    <p className='productoDescripcion'>sata ssd 480gb kingston</p>
-                    <h2 className='productoPrecio'>$ 20.000</h2>
+                    <p className='productoDescripcion' id="PD">sata ssd 480gb kingston</p>
+                    <h2 className='productoPrecio' id="PP">$ 20.000</h2>
                   </div>
                 </div>
               </a>

@@ -1,0 +1,23 @@
+#bodyEjemplo{
+    min-height: 100vh;
+    width: 100vw;
+}
+#gridEjemplo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 70vh;
+    width: 85vw;
+    margin-left: 7.5vw;
+    margin-right: 7.5vw;
+    margin-top: 15vh;
+    border: 2px black solid;
+}
+.imagenEjemplo{
+    margin-top: 10%;
+    margin-left: 15%;
+    width: 70%;
+    height: 70%;
+    grid-row-start: 1;
+    grid-row-end: -1;
+}

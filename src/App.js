@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import "./Styles/bootstrap.css";
 import './App.css';
 import Nav from './Components/Layouts/Nav';
@@ -17,8 +16,8 @@ import Footer from './Components/Layouts/Footer';
 import "./Styles/Components/Layouts/Footer.css";
 import './Styles/Components/Pages/FavoritoPage.css';
 import Fav from './pages/FavoritoPage';
-alert('Peru')
-
+import EjemploProductos from './pages/ejemploProductos';
+import "./Styles/Components/Pages/Ejemplo.css";
 function App(cont) {
   return (
     <div className="App">
@@ -30,6 +29,7 @@ function App(cont) {
           <Route path='/Contacto' element={<ContactoPage/>}/>
           <Route path='/Tienda' element={<TiendaPage/>}/>
           <Route path='/Usuario/Favorito' element={<Fav/>}/>
+          <Route path='/producto' element={<EjemploProductos/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

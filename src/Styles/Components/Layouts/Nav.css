@@ -70,14 +70,23 @@ body {
   padding: 1vh;
   background-color: white;
   overflow: hidden;
-  transition: background-color 0.3s ease-in-out, max-width 0.5s ease-in-out;
+  transition: background-color 0.3s ease-in-out, max-width 1s ease-in-out;
   white-space: nowrap;
-  max-width: 3vw;
+  max-width: 3em;
+  min-width: 2em;
 }
 
 #listaNav li button:hover {
+  transition: max-width 1s ease-in-out;
   background-color: rgba(0, 0, 0, 0.1);
-  max-width: 20vw; /* Expand to accommodate text */
+  max-width: 20em; /* Se agranda en hover */
+}
+
+@media (max-width: 600px) {
+  #listaNav li button {
+    max-width: 3em; /* Ajusta el valor según tus necesidades */
+    min-width: 1em;  /* Ajusta el valor según tus necesidades */
+  }
 }
 
 #listaNav .INav {
@@ -140,21 +149,6 @@ body {
   padding: 0;
 }
 
-#menuh ul li button {
-  cursor: pointer;
-  display: flex;
-  border-radius: 0.5vh;
-  padding: 5px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border: none;
-  box-shadow: none;
-  min-width: 13vw;
-  justify-content: left;
-  background-color: rgb(255, 255, 255);
-  transition: 0.2s, ease-in-out;
-}
-
 #menuh::-webkit-scrollbar {
   width: 12px; /* Ancho de la barra de desplazamiento */
 }
@@ -199,11 +193,31 @@ body {
 }
 
 #menuh p {
+  display: flex;
+  justify-content: center;
   border-bottom: solid 0.2vh rgb(148, 148, 148);
-  padding-left: 5vw;
-  padding-right: 5vw;
+  padding-left: 8vw;
+  text-align: center;
+  padding-right: 8vw;
   width: 5vw;
   max-width: 5vw;
+}
+
+#menuh ul li button {
+  cursor: pointer;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  border-radius: 0.5vh;
+  padding: 5px;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  border: none;
+  box-shadow: none;
+  min-width: 13vw;
+  justify-content: left;
+  background-color: rgb(255, 255, 255);
+  transition: 0.2s, ease-in-out;
 }
 
 #menuh.show {
