@@ -72,6 +72,15 @@ const Nav = (props) => {
                 </button>
               </Link>
             </li>
+            
+            <li>
+              <Link to="/Nosotros" className="no-underline">
+                <button>
+                  <img src="./imagenes/tienda.png" class="INav" />
+                  <span class="text">nosotros</span>
+                </button>
+              </Link>
+            </li>
             <li>
               <Link to="/Novedades" className="no-underline">
                 <button>

@@ -6,22 +6,23 @@ body {
 
 #bienvenidos {
   display: grid;
-  grid-template-columns: 0.5fr 3fr 6fr 0.5fr;
-  height: 100vh;
+  grid-template-columns: 0.3fr 3fr 6fr 0.5fr;
+  height: 90vh;
   width: 100%;
-  background-color: #a8a8a8;
+  background-color: #A4CE95;
   grid-template-rows: 200px;
-  margin-top: 5vh;
+  margin-top: 0%;
 }
 
 #titulo {
-  border: black 1vh solid;
   grid-template-columns: 5px;
   grid-column: 2;
-  border: 0;
-  margin-top: 9%;
-  font-size: 350%;
+  text-align: center;
+  margin-top: 15%;
+  font-size: 300%;
+  width: 80%;
   color: #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #texto {
@@ -29,8 +30,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  gap: -200px;
-  color: rgb(71, 71, 71);
+  color: #F4EDCC;
 }
 
 #A {
@@ -42,43 +42,40 @@ body {
   margin-bottom: 10vh;
   color: black;
   text-decoration: none;
-  background-color: gray;
+  background-color: #6196A6;
   padding: 10px;
   border-radius: 5px;
 }
 
-.carousel {
+#A ::hover{
+  background-color: red;
+}
+
+#imagenes {
+  grid-column: 1/-2;
+  grid-row: 2;
+  height: 200px;
   display: flex;
-  justify-content: center;
-  max-width: 100%;
-  margin: auto;
-  overflow: hidden;
+  gap: 3%;
+  margin-top: 1vh;
+  height: 50vh;
 }
 
-.carousel-inner {
-  display: flex;
-  transition: transform 0.5s ease;
-  width: 100%; /* Ajustamos la anchura del contenedor */
+#imagenes :nth-child(1) {
+  position: relative;
+  width: 30%;
+  height: 100%;
+  margin-left: 2vw;
+  border-radius: 5px;
 }
-
-.carousel-item {
-  flex: 0 0 100%; /* Cada imagen ocupará el 100% del contenedor */
-  display: none; /* Oculta las imágenes por defecto */
-}
-
-.carousel-item.active {
-  display: block; /* Muestra solo la imagen activa */
-}
-
-.carousel img {
-  width: 100%;
-  vertical-align: middle;
+#imagenes :nth-child(2) {
+  position: relative;
+  width: 70%;
+  height: 100%;
+  border-radius: 5px;
 }
 
 .prev:hover, .next:hover {
   background-color: rgba(0, 0, 0, 0.8);
 }
 
-#imagenes{
-  width: 20vw;
-}

@@ -9,7 +9,8 @@
     width: 100%;
     background-color: rgb(83, 83, 83);
     color: rgb(255, 255, 255); 
-    padding: 10px;
+    padding-left:10px;
+    padding-top: 2px;
 }
 
 #fl{

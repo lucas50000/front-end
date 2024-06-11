@@ -18,6 +18,8 @@ import './Styles/Components/Pages/FavoritoPage.css';
 import Fav from './pages/FavoritoPage';
 import EjemploProductos from './pages/ejemploProductos';
 import "./Styles/Components/Pages/Ejemplo.css";
+import Nosotros from "./pages/NosotrosPage.js";
+import "./Styles/Components/Pages/NosotrosPage.css";
 function App(cont) {
   return (
     <div className="App">
@@ -30,6 +32,7 @@ function App(cont) {
           <Route path='/Tienda' element={<TiendaPage/>}/>
           <Route path='/Usuario/Favorito' element={<Fav/>}/>
           <Route path='/producto' element={<EjemploProductos/>}/>
+          <Route path='/Nosotros' element={<Nosotros/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

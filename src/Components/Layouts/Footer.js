@@ -27,7 +27,7 @@ const Footer = (props)=>{
                          Su presencia en nuestra página 
                          <br></br>
                          significa mucho para nosotros.</p>
-                         <p><b>juan es un peruano</b></p>
+                    
                     </div>
                  
                 </div>
