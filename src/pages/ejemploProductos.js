@@ -3,7 +3,7 @@ const EjemploProductos = () => {
   return (
     <div id="bodyEjemplo">
         <div id="gridEjemplo">
-            <img src="./imagenes/carrito.jpg" className="imagenEjemplo"/>
+            <img src="./imagenes/4090.jpg" className="imagenEjemplo"/>
         </div>
     </div>
   )
