@@ -14,10 +14,10 @@ const TiendaPage = (props) => {
         <li className='producto '>
               <a href='3' className='productolink'>
                 <div className='productoContenedor'>
-                  <img src='https://http2.mlstatic.com/D_Q_NP_991845-MLA74734455351_022024-W.webp' className='productoImagen'></img>
+                  <img src="/imagenes/sata.jpg" className='productoImagen'></img>
                   <div className='productoTexto'>
-                    <p className='productoDescripcion'>sata ssd 480gb kingston</p>
-                    <h2 className='productoPrecio'>$ 20.000</h2>
+                    <p className='productoDescripcion'>Sata ssd 240gb kingston</p>
+                    <h2 className='productoPrecio'>$ 44.999</h2>
                   </div>
                 </div>
               </a>
@@ -25,10 +25,10 @@ const TiendaPage = (props) => {
           <li className='producto'>
               <a href='3' className='productolink'>
                 <div className='productoContenedor'>
-                  <img src='https://http2.mlstatic.com/D_Q_NP_991845-MLA74734455351_022024-W.webp' className='productoImagen'></img>
+                  <img src="/imagenes/fideos.jpg" className='productoImagen'></img>
                   <div className='productoTexto'>
-                    <p className='productoDescripcion' id="PD">sata ssd 480gb kingston</p>
-                    <h2 className='productoPrecio' id="PP">$ 20.000</h2>
+                    <p className='productoDescripcion' id="PD">Fideos Moños Matarazzo X 500 Gr</p>
+                    <h2 className='productoPrecio' id="PP">$ 2.275</h2>
                   </div>
                 </div>
               </a>
@@ -36,10 +36,10 @@ const TiendaPage = (props) => {
           <li className='producto'>
               <a href='3' className='productolink'>
                 <div className='productoContenedor'>
-                  <img src='https://http2.mlstatic.com/D_Q_NP_991845-MLA74734455351_022024-W.webp' className='productoImagen'></img>
+                  <img src="/imagenes/Alfajor Cofler Block.jpg" className='productoImagen'></img>
                   <div className='productoTexto'>
-                    <p className='productoDescripcion'>sata ssd 480gb kingston</p>
-                    <h2 className='productoPrecio'>$ 20.000</h2>
+                    <p className='productoDescripcion'>Alfajor Cofler Block X 60 Gr</p>
+                    <h2 className='productoPrecio'>$ 962</h2>
                   </div>
                 </div>
               </a>
@@ -47,10 +47,10 @@ const TiendaPage = (props) => {
           <li className='producto'>
               <a href='3' className='productolink'>
                 <div className='productoContenedor'>
-                  <img src='https://http2.mlstatic.com/D_Q_NP_991845-MLA74734455351_022024-W.webp' className='productoImagen'></img>
+                  <img src="/imagenes/4090.jpg"className='productoImagen'></img>
                   <div className='productoTexto'>
-                    <p className='productoDescripcion'>sata ssd 480gb kingston</p>
-                    <h2 className='productoPrecio'>$ 20.000</h2>
+                    <p className='productoDescripcion'>MSI B Video Card, GeForce RTX 4090 GAMING X TRIO 24G NVIDIA Video Cards</p>
+                    <h2 className='productoPrecio'>$ 20</h2>
                   </div>
                 </div>
               </a>
@@ -58,10 +58,10 @@ const TiendaPage = (props) => {
           <li className='producto'>
               <a href='3' className='productolink'>
                 <div className='productoContenedor'>
-                  <img src='https://http2.mlstatic.com/D_Q_NP_991845-MLA74734455351_022024-W.webp' className='productoImagen'></img>
+                  <img src="/imagenes/twistos.webp" className='productoImagen'></img>
                   <div className='productoTexto'>
-                    <p className='productoDescripcion'>sata ssd 480gb kingston</p>
-                    <h2 className='productoPrecio'>$ 20.000</h2>
+                    <p className='productoDescripcion'>Twistos minitostaditas quesos 155 gr</p>
+                    <h2 className='productoPrecio'>$ 3.743</h2>
                   </div>
                 </div>
               </a>
@@ -69,10 +69,10 @@ const TiendaPage = (props) => {
           <li className='producto'>
               <a href='3' className='productolink'>
                 <div className='productoContenedor'>
-                  <img src='https://http2.mlstatic.com/D_Q_NP_991845-MLA74734455351_022024-W.webp' className='productoImagen'></img>
+                  <img src="/imagenes/pan.jpg" className='productoImagen'></img>
                   <div className='productoTexto'>
-                    <p className='productoDescripcion'>sata ssd 480gb kingston</p>
-                    <h2 className='productoPrecio'>$ 20.000</h2>
+                    <p className='productoDescripcion'>Pan Bimbo Blanco Grande</p>
+                    <h2 className='productoPrecio'>$ 1.850</h2>
                   </div>
                 </div>
               </a>

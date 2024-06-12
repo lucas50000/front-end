@@ -30,7 +30,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  color: #F4EDCC;
+  color: #ffffff;
 }
 
 #A {
@@ -40,15 +40,11 @@ body {
   border: 2px black solid;
   cursor: pointer;
   margin-bottom: 10vh;
-  color: black;
+  color: rgb(255, 255, 255);
   text-decoration: none;
-  background-color: #6196A6;
+  background-color: #47accb;
   padding: 10px;
   border-radius: 5px;
-}
-
-#A ::hover{
-  background-color: red;
 }
 
 #imagenes {

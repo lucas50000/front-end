@@ -17,9 +17,10 @@ const Home = (props) => {
       </div>
       <div id="imagenes">
         <img src="./imagenes/carrito.jpg"  />
-        <img src="./Imagenes/juan-nuv2.jpg"   />
+        <img src="./Imagenes/fotohome2.jpg"   />
       </div>
     </div>
   );
 };
 export default Home;
+

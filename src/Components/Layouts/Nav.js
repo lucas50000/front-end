@@ -50,10 +50,12 @@ const Nav = (props) => {
   return (
     <div>
       <nav id="nav">
+      <Link to="/" className="no-underline">
         <div id="empresa">
           <img src="./imagenes/icono.png" alt="LOGO" id="ins"></img>
           <h1 id="nombre">Store Book</h1>
         </div>
+        </Link>
         <div id="divdiv">
           <ul id="listaNav">
             <li>
@@ -73,14 +75,14 @@ const Nav = (props) => {
               </Link>
             </li>
             
-            <li>
+            {/* <li>
               <Link to="/Nosotros" className="no-underline">
                 <button>
                   <img src="./imagenes/tienda.png" class="INav" />
                   <span class="text">nosotros</span>
                 </button>
               </Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/Novedades" className="no-underline">
                 <button>
@@ -89,14 +91,14 @@ const Nav = (props) => {
                 </button>
               </Link>
             </li>
-            <li>
+             <li>
               <Link to="/producto" className="no-underline">
                 <button>
                   <img src="./logo512.png" class="INav" />
                   <span class="text">ejemplo</span>
                 </button>
               </Link>
-            </li>
+            </li> 
           </ul>
         </div>
         <a class="menu-link" id="menuLink">

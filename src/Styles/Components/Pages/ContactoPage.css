@@ -6,13 +6,13 @@ body{
 #fondo{
     position: relative;
     height: 100vh;
-    background: url('/public/imagenes/cropped-Meetings.webp') no-repeat center center fixed;
+   
     background-size: cover;
 }
 
 #si{
    color: rgb(0, 0, 0);
-   -webkit-text-stroke: 0.04rem rgb(255, 255, 255);
+  
    font-size: 500%;
 }
 
@@ -22,6 +22,7 @@ body{
 
 #divContacto{
     display: flex;
+    margin-top: 12%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
