@@ -28,9 +28,9 @@ const EjemploProductos = () => {
       </tr>
     <tr>
       <th>2</th>
-      <td></td>
-      <td></td>
-      <td></td>
+      <td>Mercado Libre</td>
+      <td>$ 12</td>
+      <td>12 km</td>
     </tr>
     <tr>
       <th>3</th>
