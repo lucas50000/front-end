@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-
+import { Link } from "react-router-dom";
 const Home = (props) => {
   
 
@@ -9,11 +9,13 @@ const Home = (props) => {
       <div id="texto">
         <p>
           Descubre los mejores precios de alimentos, de higiene y uso personal
-          en Benitos Juarez. 
+          en Benitos Juarez. <br/>Comparte las mejores ofertas que encuentres para cooperar con nuestra comunidad.
         </p>
-        <a href="#" target="_blank" id="A">
+        <Link to="/Tienda" className="no-underline">
+          <a target="_blank" id="A">
           Explorar
-        </a>
+          </a>
+        </Link>
       </div>
       <div id="imagenes">
         <img src="./imagenes/carrito.jpg"  />
