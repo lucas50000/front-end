@@ -4,7 +4,11 @@ const EjemploProductos = () => {
     <div id="bodyEjemplo">
         <div id="gridEjemplo">
             <img src="./imagenes/4090.jpg" className="imagenEjemplo"/>
+            <div>s</div>
+          <div>a</div>
+          <div>d</div>
         </div>
+        
     </div>
   )
 }

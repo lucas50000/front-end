@@ -29,7 +29,18 @@ body{
     background-color: #fff;
     padding-right: 1.5rem;
 }
-
+.barrasearch{
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    padding-top: 2%;
+    gap: 2%;
+}
+.barrasearch button{
+    border-color: black;
+    color: black;
+    font-size: large;
+}
 
 .producto:hover::before{
     position: absolute;
