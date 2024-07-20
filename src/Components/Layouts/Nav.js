@@ -53,7 +53,7 @@ const Nav = (props) => {
       <Link to="/" className="no-underline">
         <div id="empresa">
           <img src="./imagenes/icono.png" alt="LOGO" id="ins"></img>
-          <h1 id="nombre">Store Book</h1>
+          <h1 id="nombre">Juarez Busca</h1>
         </div>
         </Link>
         <div id="divdiv">

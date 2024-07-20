@@ -21,3 +21,32 @@
     grid-row-start: 1;
     grid-row-end: -1;
 }
+.tablaejempo{
+    margin-top: 2%;
+    width: 75%;
+    margin-left:14%;
+    font-size: medium;
+}
+.tablaejempo tbody{
+    font-size: large;
+}
+
+.tablaejempo tr{
+    border-top: 2px rgb(156, 156, 156) solid;
+    border-bottom: 2px rgb(156, 156, 156) solid;
+}
+.tablaejempo tr:first-child{
+    border-top: none;
+}
+
+.contenedor-imagen{
+    border: 1px solid #CBCBCB;
+    height: 60px !important;
+    width: 60px !important;
+    border: 1px solid #CBCBCB;
+    border-radius: 4px;
+    padding: 0px;
+    display: flex;
+    float: left;
+    background: #fff;
+}
