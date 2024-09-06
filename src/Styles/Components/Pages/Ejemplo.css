@@ -50,3 +50,13 @@
     float: left;
     background: #fff;
 }
+#tituloProductoEspecifico{
+    text-align: center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+#tituloProductoEspecifico h1{
+    align-content: center;
+}

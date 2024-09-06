@@ -4,9 +4,9 @@ const EjemploProductos = () => {
     <div id="bodyEjemplo">
         <div id="gridEjemplo">
             <img src="./imagenes/4090.jpg" className="imagenEjemplo"/>
-            <div>s</div>
-          <div>a</div>
-          <div>d</div>
+            <div id='tituloProductoEspecifico'><h2>Grafica 4080 TI</h2></div>
+          <div id='precioProductoEspecifico'>20.000$</div>
+          <div id='descripcionProductoEspecifico'>Grafica genial para mejorar tu experiencias en juegos, con ella nunca veras bajos fps</div>
         </div>
         <table class="tablaejempo">
     <thead>
