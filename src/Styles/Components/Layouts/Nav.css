@@ -74,6 +74,7 @@ body {
   background-color: white;
   overflow: hidden;
   transition: background-color 0.3s ease-in-out, max-width 1s ease-in-out;
+  margin-top: 2vh;
   white-space: nowrap;
   max-width: 3em;
   min-width: 2em;

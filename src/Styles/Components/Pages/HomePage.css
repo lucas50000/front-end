@@ -4,6 +4,10 @@ body {
   font-family: Arial, sans-serif;
 }
 
+::-webkit-scrollbar { /*esto sirve para ocultar el scrollbar*/
+  display: none;
+}
+
 #bienvenidos {
   display: grid;
   grid-template-columns: 0.3fr 3fr 6fr 0.5fr;
@@ -13,6 +17,8 @@ body {
   grid-template-rows: 200px;
   margin-top: 0%;
 }
+
+
 
 #titulo {
   grid-template-columns: 5px;
@@ -62,14 +68,14 @@ body {
 
 #imagenes :nth-child(1) {
   position: relative;
-  width: 30%;
+  width: 25%;
   height: 100%;
   margin-left: 2vw;
   border-radius: 5px;
 }
 #imagenes :nth-child(2) {
   position: relative;
-  width: 70%;
+  width: 100%;
   height: 100%;
   border-radius: 5px;
 }
