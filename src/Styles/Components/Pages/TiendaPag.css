@@ -1,6 +1,6 @@
 
 body{
-    background-color: rgb(237, 229, 229);
+    background-color: rgb(236, 229, 229);
     margin-top: 10vh;
     height:max-content;
 }
@@ -63,7 +63,6 @@ body{
     height: 100%;
     padding: 0;
     width: 100%;
-
 }
 .productolink{
     display:block;

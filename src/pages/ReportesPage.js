@@ -20,10 +20,10 @@ const ContactoPage = (props)=>{
       <div id='fondo'>
         <div id='si' >
           <section id='divContacto'>
-            <h1 id='tituloContacto'>Contactenos</h1>
+            <h1 id='tituloContacto'>Reportar Errores</h1>
             <p className='intro'>Nombre</p><input defaultValue={"Nombre"} className='intro' id='botonNombre' ></input>
             <p className='intro'>Mail</p><input defaultValue={"Tu correo electrónico"} className='intro' id='botonCorreo'></input>
-            <p className='intro'>Mensaje</p><input defaultValue={"Mensaje opcional"} className='intro' id='botonMensaje'></input>
+            <p className='intro'>describe el error</p><input defaultValue={"Mensaje opcional"} className='intro' id='botonMensaje'></input>
             <button id='botonContacto' >Enviar</button>
           </section>
         </div>

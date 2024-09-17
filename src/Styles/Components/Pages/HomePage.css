@@ -68,11 +68,12 @@ body {
 
 #imagenes :nth-child(1) {
   position: relative;
-  width: 25%;
+  width: 30.4%;
   height: 100%;
   margin-left: 2vw;
   border-radius: 5px;
 }
+
 #imagenes :nth-child(2) {
   position: relative;
   width: 100%;
