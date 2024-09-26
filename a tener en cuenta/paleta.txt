@@ -1,13 +1,6 @@
-//paleta del home (
-
-#627254 rgb(98, 114, 84)
-
-#76885B rgb(118, 136, 91)
-
-#DDDDDD rgb(221, 221, 221)
-
-#EEEEEE rgb(238, 238, 238)
-
-Link:https://colorhunt.co/palette/62725476885bddddddeeeeee
-
-)
+ffd6aa
+fff7f9
+93e1d8
+303036
+4b5842
+https://coolors.co/palette/ffd6aa-fff7f9-93e1d8-303036-4b5842
