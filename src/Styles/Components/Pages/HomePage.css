@@ -13,7 +13,7 @@ body {
   grid-template-columns: 0.3fr 3fr 6fr 0.5fr;
   height: 90vh;
   width: 100%;
-  background-color: #A4CE95;
+  background-color: #FFD6AA;
   grid-template-rows: 200px;
   margin-top: 0%;
 }
@@ -27,7 +27,7 @@ body {
   margin-top: 15%;
   font-size: 300%;
   width: 80%;
-  color: #ffffff;
+  color: black;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -37,7 +37,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
   font-style: none;
 }
@@ -51,7 +51,7 @@ body {
   margin-bottom: 10vh;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  background-color: #47accb;
+  background-color: #303036;
   padding: 10px;
   border-radius: 5px;
 }
