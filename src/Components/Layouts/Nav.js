@@ -137,10 +137,12 @@ const Nav = (props) => {
           </li>
           <p>Pagina</p>
           <li>
+          <Link to="/ReportarError" className="no-underline">
             <button>
               <img src="./imagenes/reportar.png" class="burger" />
               <span>Reportar Error</span>
             </button>
+            </Link>
           </li>
           <li>
             <button>

@@ -19,6 +19,8 @@ import EjemploProductos from './pages/ejemploProductos';
 import "./Styles/Components/Pages/Ejemplo.css";
 import Nosotros from "./pages/NosotrosPage.js";
 import "./Styles/Components/Pages/NosotrosPage.css";
+import reportarError from "./pages/ReportesPage.js";
+import "./Styles/Components/Pages/ReportesPage.css";
 function App(cont) {
   return (
     <div className="App">
@@ -33,6 +35,7 @@ function App(cont) {
           <Route path='/Usuario/Favorito' element={<Fav/>}/>
           <Route path='/producto' element={<EjemploProductos/>}/>
           <Route path='/Nosotros' element={<Nosotros/>}/>
+          <Route path='/ReportarError' element={<reportarError/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

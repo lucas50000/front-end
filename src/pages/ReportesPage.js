@@ -1,15 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
-const ContactoPage = (props)=>{
-  useEffect(() => {
-    document.querySelectorAll(".intro").forEach(inp => {
-      inp.addEventListener("click", () => {
-        inp.value = "";
-      });
-    });
-  }, []);
-  
-  
+const reportarError = (props)=>{
+ 
   return(
     <div>
       <head>
@@ -31,4 +23,4 @@ const ContactoPage = (props)=>{
     </div>
   );
 }
-export default ContactoPage;
+export default reportarError;
