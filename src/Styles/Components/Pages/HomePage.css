@@ -43,8 +43,6 @@ body {
 }
 
 #botoninicio {
-  width: 0%;
-  width: min-content;
   padding: 2px;
   border: 2px black solid;
   cursor: pointer;
@@ -54,6 +52,7 @@ body {
   background-color: #303036;
   padding: 10px;
   border-radius: 5px;
+  width: min-content;
 }
 
 #imagenes {
