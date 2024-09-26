@@ -42,13 +42,13 @@ body {
   font-style: none;
 }
 
-#A {
+#botoninicio {
   width: 0%;
   width: min-content;
   padding: 2px;
   border: 2px black solid;
   cursor: pointer;
-  margin-bottom: 10vh;
+  margin-bottom: 0vh;
   color: rgb(255, 255, 255);
   text-decoration: none;
   background-color: #303036;

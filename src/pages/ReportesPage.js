@@ -1,6 +1,6 @@
 import React from 'react';
 
-const reportarError = (props)=>{
+const ReportarError = (props)=>{
  
   return(
     <div>
@@ -23,4 +23,4 @@ const reportarError = (props)=>{
     </div>
   );
 }
-export default reportarError;
+export default ReportarError;

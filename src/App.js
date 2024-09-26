@@ -19,7 +19,7 @@ import EjemploProductos from './pages/ejemploProductos';
 import "./Styles/Components/Pages/Ejemplo.css";
 import Nosotros from "./pages/NosotrosPage.js";
 import "./Styles/Components/Pages/NosotrosPage.css";
-import reportarError from './pages/ReportesPage.js';
+import ReportarError from './pages/ReportesPage.js';
 
 function App(cont) {
   return (
@@ -35,7 +35,7 @@ function App(cont) {
           <Route path='/Usuario/Favorito' element={<Fav/>}/>
           <Route path='/producto' element={<EjemploProductos/>}/>
           <Route path='/Nosotros' element={<Nosotros/>}/>
-          <Route path='/ReportarError' element={<reportarError/>}/>
+          <Route path='/ReportarError' element={<ReportarError/>}/>
         </Routes>
         <Footer/>
       </BrowserRouter>

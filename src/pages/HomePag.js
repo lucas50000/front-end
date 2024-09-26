@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 const Home = (props) => {
   
@@ -12,14 +12,14 @@ const Home = (props) => {
           en Benitos Juarez. <br/>Comparte las mejores ofertas que encuentres para cooperar con nuestra comunidad.
         </p>
         <Link to="/Tienda" className="no-underline">
-          <a target="_blank" id="A">
+          <button target="_blank" id="botoninicio">
           Explorar
-          </a>
+          </button>
         </Link>
       </div>
       <div id="imagenes">
-        <img src="./imagenes/carrito.jpg"  />
-        <img src="./Imagenes/fotohome2.jpg"   />
+        <img src="./imagenes/carrito.jpg" alt="" />
+        <img src="./Imagenes/fotohome2.jpg" alt=""  />
       </div>
     </div>
   );

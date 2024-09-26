@@ -1,6 +1,6 @@
-import React, { useState, useEffect } from "react";
-import { pag } from "../../App";
-import Home from "../../pages/HomePag";
+import React, {  useEffect } from "react";
+// import { pag } from "../../App";
+// import Home from "../../pages/HomePag";
 import { Link } from "react-router-dom";
 
 const Nav = (props) => {
@@ -61,7 +61,7 @@ const Nav = (props) => {
             <li>
               <Link to="/" className="no-underline">
                 <button>
-                  <img src="./imagenes/casa.png" class="INav" />
+                  <img src="./imagenes/casa.png" class="INav" alt="a" />
                   <span class="text">Inicio</span>
                 </button>
               </Link>
@@ -69,7 +69,7 @@ const Nav = (props) => {
             <li>
               <Link to="/Tienda" className="no-underline">
                 <button>
-                  <img src="./imagenes/tienda.png" class="INav" />
+                  <img src="./imagenes/tienda.png" class="INav" alt="b"/>
                   <span class="text">Tienda</span>
                 </button>
               </Link>
@@ -86,7 +86,7 @@ const Nav = (props) => {
             <li>
               <Link to="/Novedades" className="no-underline">
                 <button>
-                  <img src="./imagenes/novedades.png" class="INav" />
+                  <img src="./imagenes/novedades.png" class="INav" alt="c"/>
                   <span class="text">Novedades</span>
                 </button>
               </Link>
@@ -94,14 +94,14 @@ const Nav = (props) => {
              <li>
               <Link to="/producto" className="no-underline">
                 <button>
-                  <img src="./logo512.png" class="INav" />
+                  <img src="./logo512.png" class="INav" alt="a1"/>
                   <span class="text">ejemplo</span>
                 </button>
               </Link>
             </li> 
           </ul>
         </div>
-        <a class="menu-link" id="menuLink">
+        <a class="menu-link" id="menuLink" href="/">
           <img src="./imagenes/menu.png" alt="Menu Hamburgesa" class="menu" />
         </a>
       </nav>
@@ -111,7 +111,7 @@ const Nav = (props) => {
           <li>
             <Link to="/Contacto" className="no-underline">
               <button>
-                <img src="./imagenes/nosotros.png" class="burger" />
+                <img src="./imagenes/nosotros.png" class="burger" alt="k"/>
                 <span>Contactanos</span>
               </button>
             </Link>
@@ -119,19 +119,19 @@ const Nav = (props) => {
           <p>Usuario</p>
           <li>
             <button>
-              <img src="./imagenes/usuario.png" class="burger" />
+              <img src="./imagenes/usuario.png" class="burger" alt="xca" />
               <span>Cuenta</span>
             </button>
           </li>
           <li>
             <button>
-              <img src="./imagenes/fav.png" class="burger" />
+              <img src="./imagenes/fav.png" class="burger" alt="po"/>
               <span>Favoritos</span>
             </button>
           </li>
           <li>
             <button>
-              <img src=".\imagenes\Conf-usu.png" class="burger" />
+              <img src=".\imagenes\Conf-usu.png" class="burger" alt="po"/>
               <span>Configurar Cuenta</span>
             </button>
           </li>
@@ -139,14 +139,14 @@ const Nav = (props) => {
           <li>
           <Link to="/ReportarError" className="no-underline">
             <button>
-              <img src="./imagenes/reportar.png" class="burger" />
+              <img src="./imagenes/reportar.png" class="burger" alt="no"/>
               <span>Reportar Error</span>
             </button>
             </Link>
           </li>
           <li>
             <button>
-              <img src="./imagenes/Conf.png" class="burger" />
+              <img src="./imagenes/Conf.png" class="burger" alt="b"/>
               <span>Configuracion</span>
             </button>
           </li>
