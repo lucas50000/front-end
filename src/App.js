@@ -19,8 +19,8 @@ import EjemploProductos from './pages/ejemploProductos';
 import "./Styles/Components/Pages/Ejemplo.css";
 import Nosotros from "./pages/NosotrosPage.js";
 import "./Styles/Components/Pages/NosotrosPage.css";
-import reportarError from "./pages/ReportesPage.js";
-import "./Styles/Components/Pages/ReportesPage.css";
+import reportarError from './pages/ReportesPage.js';
+
 function App(cont) {
   return (
     <div className="App">
