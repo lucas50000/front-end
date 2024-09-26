@@ -12,7 +12,7 @@
     margin-right: 7.5vw;
     margin-top: 15vh;
     border: 2px black solid;
-
+    margin-bottom: 502px;
 }
 .imagenEjemplo{
     margin-top: 10%;
@@ -29,6 +29,7 @@
     width: 75%;
     margin-left:14%;
     font-size: medium;
+    margin-bottom: 200px;
 }
 .tablaejempo tbody{
     font-size: large;

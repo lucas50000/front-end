@@ -13,6 +13,7 @@ body{
     margin-right: 15%;
     grid-template-columns:  repeat(auto-fill,minmax(16rem,1fr));
     top: 1vh;
+    margin-bottom: 10vh;
 }
 .producto{
     display: flex;
