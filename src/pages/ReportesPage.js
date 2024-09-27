@@ -2,7 +2,7 @@ import React from "react";
 
 const ReportarError = (props) => {
   return (
-    <div>
+    <div id="fondoReporte">
       <head>
         <style>
           @import
@@ -13,6 +13,13 @@ const ReportarError = (props) => {
         <h1 id="tituloReporte">Reportar Errores</h1>
         <div id="area-form">
           <label>Reportar Errores</label>
+          <div className="">
+            <input className="inputsReporte" placeholder="Tu Email..."></input>
+            <input className="inputsReporte2" placeholder="Explicame el error..."></input>
+            <br></br>
+            <button defaultValue="Tu Email" className="botonReporte">hola </button>
+          </div>
+
         </div>
       </div>
     </div>

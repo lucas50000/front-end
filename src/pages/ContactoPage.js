@@ -23,11 +23,8 @@ const ContactoPage = (props)=>{
         <div id="si">
           <section id="divContacto">
             <h1 id="tituloContacto">Contáctenos</h1>
-            <p class="intro">Nombre</p>
             <input defaultValue="Nombre" class="intro" id="botonNombre"></input>
-            <p class="intro">Mail</p>
             <input defaultValue="Tu correo electrónico" class="intro" id="botonCorreo"></input>
-            <p class="intro">Mensaje</p>
             <input defaultValue="Mensaje opcional" class="intro" id="botonMensaje"></input>
             <button id="botonContacto">Enviar</button>
           </section>
