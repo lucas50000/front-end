@@ -20,6 +20,7 @@ import "./Styles/Components/Pages/Ejemplo.css";
 import Nosotros from "./pages/NosotrosPage.js";
 import "./Styles/Components/Pages/NosotrosPage.css";
 import ReportarError from './pages/ReportesPage.js';
+import "./Styles/Components/Pages/ReportesPage.css";
 
 function App(cont) {
   return (

@@ -1,0 +1,23 @@
+#tituloReporte {
+  position: relative;
+  font-family: poppins;
+  color: black;
+  text-align: center;
+  background-color: red;
+  width: 20%;
+  padding: 0;
+  margin-top: 11vh;
+  left: 40%;
+}
+
+#area-form {
+  position: relative;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 3px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  left: 25%;
+}
