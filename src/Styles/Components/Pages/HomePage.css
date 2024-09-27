@@ -28,7 +28,7 @@ body {
   font-size: 300%;
   width: 80%;
   color: black;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #texto {
@@ -38,6 +38,8 @@ body {
   flex-direction: column;
   justify-content: flex-end;
   color: #000000;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-decoration: none;
   font-style: none;
 }
@@ -52,7 +54,8 @@ body {
   background-color: #303036;
   padding: 10px;
   border-radius: 5px;
-  width: min-content;
+  width: 185px;
+  height: 50px;
 }
 
 #imagenes {
@@ -70,14 +73,14 @@ body {
   width: 30.4%;
   height: 100%;
   margin-left: 2vw;
-  border-radius: 5px;
+  border-radius: 5px 25px 5px 25px;
 }
 
 #imagenes :nth-child(2) {
   position: relative;
   width: 100%;
   height: 100%;
-  border-radius: 5px;
+  border-radius: 25px 5px 25px 5px;
 }
 
 .prev:hover, .next:hover {

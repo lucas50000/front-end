@@ -8,6 +8,7 @@ const Home = (props) => {
       <h1 id="titulo">Bienvenidos</h1>
       <div id="texto">
         <p>
+          
           Descubre los mejores precios de alimentos, de higiene y uso personal
           en Benitos Juarez. <br/>Comparte las mejores ofertas que encuentres para cooperar con nuestra comunidad.
         </p>

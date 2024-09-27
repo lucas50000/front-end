@@ -7,8 +7,9 @@
     position: relative;
     bottom: 0;
     width: 100%;
-    background-color: rgb(83, 83, 83);
-    color: rgb(255, 255, 255); 
+    background-color: #4B5842;
+    color: #ffffff; 
+    text-shadow: black 2px 2px 2px;
     padding-left:10px;
     padding-top: 2px;
 }
