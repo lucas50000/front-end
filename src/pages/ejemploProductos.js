@@ -5,9 +5,10 @@ const EjemploProductos = () => {
         <div id="gridEjemplo">
             <img src="./imagenes/4090.jpg" className="imagenEjemplo"/>
             <div id='tituloProductoEspecifico'><h2>Grafica 4080 TI</h2></div>
-          <div id='precioProductoEspecifico'>20.000$</div>
-          <div id='descripcionProductoEspecifico'>Grafica genial para mejorar tu experiencias en juegos, con ella nunca veras bajos fps</div>
+            <div id='precioProductoEspecifico'>$ 20.000.000</div>
+            <div id='descripcionProductoEspecifico'>Grafica genial para mejorar tu experiencias en juegos, con ella nunca veras bajos fps</div>
         </div>
+        <div id='divTabla'>
         <table class="tablaejempo">
     <thead>
       <tr>
@@ -39,6 +40,7 @@ const EjemploProductos = () => {
     </tr>
   </tbody>
 </table>
+</div>
     </div>
   )
 }

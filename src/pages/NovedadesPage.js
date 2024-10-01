@@ -57,7 +57,7 @@ const New = () => {
                 <img src="https://imagenes.compragamer.com/assets/logos/logo-fix.png" id="CGamer" className="animated-left" />
             </div>
             <div id="Content3">
-                <img src="https://imgs.search.brave.com/2qBf27GWeormwjakq-OCM1LjfhnLLaFqPzJAR3c142A/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9tZXJjYWRvbGli/cmUuc3Zn.svg" id="MLibre" className="animated-right" />
+                <img src="https://imgs.search.brave.com/2qBf27GWeormwjakq-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pngwing.com%2Fes%2Fsearch%es&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOCr6JLT7YgDFQAAAAAdAAAAABAE/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/d29ybGR2ZWN0b3Js/b2dvLmNvbS9sb2dv/cy9tZXJjYWRvbGli/cmUuc3Zn.svg" id="MLibre" className="animated-right" />
                 <div className="left animated-left">
                     <h1>Mercado Libre: Una Fuente Clave para Obtener Precios Competitivos</h1>
                     <p>Elegir Mercado Libre como tu dominio principal para obtener precios tiene múltiples beneficios. La precisión de su información, su amplia cobertura de vendedores y productos, y sus herramientas avanzadas de búsqueda y análisis, hacen de esta plataforma una herramienta indispensable para cualquier comprador astuto. Ya sea que estés buscando el último gadget tecnológico, componentes de PC, ropa de moda, o cualquier otro producto, Mercado Libre te ayuda a encontrar las mejores ofertas disponibles en el mercado.<br /><br />
