@@ -116,25 +116,7 @@ const Nav = (props) => {
               </button>
             </Link>
           </li>
-          <p>Usuario</p>
-          <li>
-            <button>
-              <img src="./imagenes/usuario.png" class="burger" alt="xca" />
-              <span>Cuenta</span>
-            </button>
-          </li>
-          <li>
-            <button>
-              <img src="./imagenes/fav.png" class="burger" alt="po"/>
-              <span>Favoritos</span>
-            </button>
-          </li>
-          <li>
-            <button>
-              <img src=".\imagenes\Conf-usu.png" class="burger" alt="po"/>
-              <span>Configurar Cuenta</span>
-            </button>
-          </li>
+         
           <p>Pagina</p>
           <li>
           <Link to="/ReportarError" className="no-underline">
