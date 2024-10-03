@@ -23,6 +23,7 @@ import ReportarError from './pages/ReportesPage.js';
 import "./Styles/Components/Pages/ReportesPage.css";
 import Alfajorcofler from "./pages/alfajorcofler.js";
 import Twistos from "./pages/Twistos.js";
+import Fideos from "./pages/fideosmoñomatarazzo.js";
 
 
 function App(cont) {
@@ -42,6 +43,8 @@ function App(cont) {
           <Route path='/ReportarError' element={<ReportarError/>}/>
           <Route path='/alfajor' element={<Alfajorcofler/>}/>
           <Route path='/Twistos' element={<Twistos/>}/>
+          <Route path='/Fideos' element={<Fideos/>}/>
+
 
         </Routes>
         <Footer/>

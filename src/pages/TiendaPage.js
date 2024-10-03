@@ -28,7 +28,7 @@ const TiendaPage = (props) => {
                 </div>
               </a>
           </li>
-          
+          <Link to="/Fideos" className="no-underline">
           <li className='producto'>
               <a href='#' className='productolink'>
                 <div className='productoContenedor'>
@@ -39,7 +39,7 @@ const TiendaPage = (props) => {
                   </div>
                 </div>
               </a>
-          </li>
+          </li></Link>
           <Link to="/alfajor" className="no-underline">
           <li className='producto'>
               <a href='3' className='productolink'>
@@ -52,6 +52,7 @@ const TiendaPage = (props) => {
                 </div>
               </a>
           </li></Link>
+          <Link to="/producto" className="no-underline">
           <li className='producto'>
               <a href='3' className='productolink'>
                 <div className='productoContenedor'>
@@ -62,7 +63,8 @@ const TiendaPage = (props) => {
                   </div>
                 </div>
               </a>
-          </li>
+          </li></Link>
+          <Link to="/Twistos" className="no-underline">
           <li className='producto'>
               <a href='3' className='productolink'>
                 <div className='productoContenedor'>
@@ -74,6 +76,7 @@ const TiendaPage = (props) => {
                 </div>
               </a>
           </li>
+          </Link>
           <li className='producto'>
               <a href='3' className='productolink'>
                 <div className='productoContenedor'>

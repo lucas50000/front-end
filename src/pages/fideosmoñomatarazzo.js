@@ -1,5 +1,5 @@
 import React from 'react'
-const Alfajorcofler = () => {
+const Fideos = () => {
   return (
     <div id="bodyEjemplo">
     <form class="form-inline my-2 my-lg-0 barrasearch">
@@ -8,11 +8,11 @@ const Alfajorcofler = () => {
   </form>
     <div class="product-container">
         <div class="product-image">
-        <img src=".\imagenes\Alfajor Cofler Block.jpg" className="imagenEjemplo"/>
+        <img src="\imagenes\fideos.jpg" className="imagenEjemplo"/>
         </div>
         <div class="product-details">
-            <h1 class="product-title">Alfajor Cofler Block </h1>
-            <p class="product-price">$1,280</p>
+            <h1 class="product-title">Fideos Moños Matarazzo X 500kg</h1>
+            <p class="product-price">$1500</p>
             <button class="buy-button">Añadir a Favoritos</button>
         </div>
     </div>
@@ -30,19 +30,19 @@ const Alfajorcofler = () => {
             <tr>
                 <td>1</td>
                 <td>Supermercado A</td>
-                <td>$1,280</td>
+                <td>$2,280</td>
                 <td>1.2 km</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Supermercado B</td>
-                <td>$1,300</td>
+                <td>$2,300</td>
                 <td>2.5 km</td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>Supermercado C</td>
-                <td>$1,290</td>
+                <td>$8,290</td>
                 <td>3.1 km</td>
             </tr>
         </tbody>
@@ -50,4 +50,4 @@ const Alfajorcofler = () => {
 </div>
 )
 }
-export default Alfajorcofler;
+export default Fideos;

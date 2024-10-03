@@ -2,57 +2,52 @@ import React from 'react'
 const Twistos = () => {
   return (
     <div id="bodyEjemplo">
-        <div id="gridEjemplo">
-            <img src="\imagenes\Alfajor Cofler Block.jpg" className="imagencofler"/>
-            <div id='tituloProductoEspecifico'><h2>Alfajor Cofler Block</h2></div>
-            <div id='divprecio'>
-              <div id='precioProductoEspecifico'>$ 1.280</div>
-              <div class="contenedor-imagen">
-                <img alt="sucursal.banderaDescripcion"  src="./Imagenes/mercado.png"/>
-             </div>
-            </div>
-            
-            
-            <div id='descripcionProductoEspecifico'>Un alfajor de la marca Cofler con un sabor inigualable al chocolate Block, de un buen tamaño para el disfrute de los mas chicos y adultos, no recomendable para gente diabetica</div>
+    <form class="form-inline my-2 my-lg-0 barrasearch">
+  <input class="form-control mr-sm-2 " type="search" placeholder="Buscar" aria-label="Search"/>
+  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+  </form>
+    <div class="product-container">
+        <div class="product-image">
+        <img src="\imagenes\twistos.webp" className="imagenEjemplo"/>
         </div>
-        <div id='divTabla'>
-        <table class="tablaejempo">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Comercio</th>
-        <th>Precio</th>
-        <th>Distancia</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <th><div class="contenedor-imagen">
-                              <img alt="sucursal.banderaDescripcion" ng-src="https://imagenes.preciosclaros.gob.ar/comercios/13-1.jpg" fallback-src="/img/comercio-no-image.png" src="https://imagenes.preciosclaros.gob.ar/comercios/13-1.jpg"/>
-                            </div></th>
-        <td id='hola'>Coperativa Obrera</td>
-        <td>$ 7.600</td>
-        <td>0.5 km</td>
-      </tr>
-    <tr>
-      <th>
-          <div class="contenedor-imagen">
-                <img alt="sucursal.banderaDescripcion"  src="./Imagenes/mercado.png"/>
-          </div>
-      </th>
-      <td>Mercado Libre</td>
-      <td>$ 2'00</td>
-      <td>12000 km</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td colspan="2"> </td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
-</div>
+        <div class="product-details">
+            <h1 class="product-title">Twistos Horneados Queso (155g)</h1>
+            <p class="product-price">$2,400</p>
+            <button class="buy-button">Añadir a Favoritos</button>
+        </div>
     </div>
-  )
+  
+    <table class="comparison-table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Comercio</th>
+                <th>Precio</th>
+                <th>Distancia</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Supermercado A</td>
+                <td>$2,280</td>
+                <td>1.2 km</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Supermercado B</td>
+                <td>$2,300</td>
+                <td>2.5 km</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Supermercado C</td>
+                <td>$8,290</td>
+                <td>3.1 km</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+)
 }
 export default Twistos;
