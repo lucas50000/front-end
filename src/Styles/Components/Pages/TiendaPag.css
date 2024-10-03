@@ -2,34 +2,28 @@
 body{
     background-color: rgb(236, 229, 229);
     margin-top: 10vh;
-    height:max-content;
 }
+#divTienda{
+    height: auto;
+}
+@media (max-width: 800px) {
+    #divTienda {
+        margin-bottom: 45vh; /* Añadir más espacio en pantallas pequeñas */
+    }
+}
+
 #gridTienda{
     display: grid;
     position: relative;
-    min-width: min-content;
     margin-left: 15%;
     margin-right: 15%;
     grid-template-columns:  repeat(auto-fill,minmax(16rem,1fr));
     gap: 2%;
     top: 1vh;
     margin-bottom: 10vh;
+    height: max-content;
 }
-.producto{
-    display: flex;
-    position: relative;
-    justify-content: space-between;
-    flex-direction: column;
-    border: 1px solid rgb(240, 240, 240);
-    border-radius: 6px;
-    height: 60vh;
-    margin: 2.1vh 1vh;
-    padding: 0;
-    width: 16rem;
-    list-style-type: none;
-    background-color: #fff;
-    padding-right: 1.5rem;
-}
+
 .barrasearch{
     width: 50%;
     margin-left: 25%;
@@ -42,26 +36,40 @@ body{
     color: black;
     font-size: large;
 }
-
+.producto{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    flex-direction: column;
+    border: 1px solid rgb(240, 240, 240);
+    border-radius: 6px;
+    height: 65vh;
+    min-height: min-content;
+    margin: 2.1vh 1vh;
+    width: 16rem;
+    list-style-type: none;
+    background-color: #fff;
+    padding-right: 1.5rem;
+}
 .producto:hover{
     box-shadow:  0 8px 16px 0 rgba(0, 0, 0, .1);
 }
 
 .productoContenedor{
-    border: 0;
     border-radius: 4px 4px 0 0;
     display: flex;
     flex-direction: column;
-    height: 100%;
+    height: 65vh;
     padding: 0;
     width: 100%;
+ 
 }
 .productolink{
     display:block;
     text-decoration: none;
     color: black;
     width: 16rem;
-    height: 100%;
+    height: 65vh;
     box-sizing: border-box;
     justify-content: start;
     padding: 2px;
@@ -73,21 +81,23 @@ body{
     width: 100%;
     text-align: left;
     padding-left:2% ;
+    height: 26vh;
 }
 .productoDescripcion{
-    font-weight: 450;
+    font-weight: 430;
     font-size: large;
 }
 .productoPrecio{
     text-wrap: 2%;
     font-weight:300;
+   
 }
 .productoImagen{
     text-align: center;
     vertical-align:top;
     margin-top: 5%;
     margin-bottom: 5%;
-    height: 70%;
+    height: 39vh;
     width: 90%;
     left: 5%;
     position: relative;

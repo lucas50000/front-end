@@ -17,6 +17,7 @@ const TiendaPage = (props) => {
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
       </form>
         <ol id='gridTienda'>
+          <Link to="/disco" className="no-underline">
         <li className='producto '>
               <a href='3' className='productolink'>
                 <div className='productoContenedor'>
@@ -28,6 +29,7 @@ const TiendaPage = (props) => {
                 </div>
               </a>
           </li>
+          </Link>
           <Link to="/Fideos" className="no-underline">
           <li className='producto'>
               <a href='#' className='productolink'>
@@ -52,7 +54,7 @@ const TiendaPage = (props) => {
                 </div>
               </a>
           </li></Link>
-          <Link to="/producto" className="no-underline">
+          <Link to="/grafica" className="no-underline">
           <li className='producto'>
               <a href='3' className='productolink'>
                 <div className='productoContenedor'>
@@ -77,6 +79,7 @@ const TiendaPage = (props) => {
               </a>
           </li>
           </Link>
+          <Link to="/pan" className="no-underline">
           <li className='producto'>
               <a href='3' className='productolink'>
                 <div className='productoContenedor'>
@@ -88,6 +91,7 @@ const TiendaPage = (props) => {
                 </div>
               </a>
           </li>
+          </Link>
         </ol>
     </div>
     

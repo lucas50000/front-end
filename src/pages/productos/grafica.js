@@ -1,5 +1,5 @@
 import React from 'react'
-const EjemploProductos = () => {
+const Grafica = () => {
   return (
     <div id="bodyEjemplo">
         <form class="form-inline my-2 my-lg-0 barrasearch">
@@ -50,4 +50,4 @@ const EjemploProductos = () => {
 </div>
   )
 }
-export default EjemploProductos;
+export default Grafica;
