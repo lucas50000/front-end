@@ -11,8 +11,11 @@
     margin-left: 7.5vw;
     margin-right: 7.5vw;
     margin-top: 15vh;
-    border: 2px black solid;
-    margin-bottom: 502px;
+    font-style: italic;
+    box-shadow:  0 8px 16px 0 rgba(0, 0, 0, .1);
+    background-color: rgba(255, 255, 255, 0.744);
+    border-radius: 6PX;
+    margin-bottom: 10px;
 }
 .imagenEjemplo{
     margin-top: 10%;
@@ -22,15 +25,30 @@
     grid-row-start: 1;
     grid-row-end: -1;
     border-radius: 25px 2px 25px 2px;
-    border: 2px solid rgba(0, 0, 0, 0.222);
+    box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.326);
+    border: BLACK 1PX solid;
 }
 .tablaejempo{
     margin-top: 2%;
-    width: 75%;
-    margin-left:14%;
+    width: 75vw;
     font-size: medium;
     margin-bottom: 200px;
+    box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.386);
+    background-color: rgba(255, 255, 255, 0.744);
+    margin-left: 5vw;
+    height: 80%;
 }
+#divTabla{
+    padding-top: 20px;
+    box-shadow:  0 8px 16px 0 rgba(0, 0, 0, .1);
+    background-color: rgba(255, 255, 255, 0.744);
+    width: 85vw;
+    height: 20vw;
+    margin-left: 7.5vw;
+    margin-right: 7.5vw;
+    margin-bottom: 2vh;
+}
+
 .tablaejempo tbody{
     font-size: large;
 }
@@ -56,15 +74,30 @@
 }
 #tituloProductoEspecifico{
     
-    font-size: 40px;
+    font-size: 32px;
     text-align: center;
     height: 100%;
     display: flex;
     justify-content: center;
     align-content: center;
+    border-bottom: rgb(105, 105, 105) 1px solid;
 }
 #tituloProductoEspecifico h2 {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 64px; /* Ajusta este tamaño según lo necesites */
+    font-size: 50px; /* Ajusta este tamaño según lo necesites */
     align-content: center;
+}
+#precioProductoEspecifico{
+    text-align: center;
+    display: flex;
+    font-size: 30px;
+    font-weight: 400;
+    align-items: center;
+    height: 100%;
+    border-bottom: rgb(105, 105, 105) 1px solid;
+}
+#descripcionProductoEspecifico{
+    font-size: 15px;
+    margin-top: 25px;
+    font-family:sans-serif;
 }
