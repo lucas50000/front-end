@@ -1,19 +1,19 @@
 import React from 'react'
-const EjemploProductos = () => {
+const Alfajorcofler = () => {
   return (
     <div id="bodyEjemplo">
         <div id="gridEjemplo">
-            <img src="./imagenes/4090.jpg" className="imagenEjemplo"/>
-            <div id='tituloProductoEspecifico'><h2>Grafica 4080 TI</h2></div>
+            <img src="\imagenes\Alfajor Cofler Block.jpg" className="imagencofler"/>
+            <div id='tituloProductoEspecifico'><h2>Alfajor Cofler Block</h2></div>
             <div id='divprecio'>
-              <div id='precioProductoEspecifico'>$ 20.000.000</div>
-              <div class="contenedor-imagen-divPrecio">
+              <div id='precioProductoEspecifico'>$ 1.280</div>
+              <div class="contenedor-imagen">
                 <img alt="sucursal.banderaDescripcion"  src="./Imagenes/mercado.png"/>
              </div>
             </div>
             
             
-            <div id='descripcionProductoEspecifico'>Grafica genial para mejorar tu experiencias en juegos, con ella nunca veras bajos fps</div>
+            <div id='descripcionProductoEspecifico'>Un alfajor de la marca Cofler con un sabor inigualable al chocolate Block, de un buen tamaño para el disfrute de los mas chicos y adultos, no recomendable para gente diabetica</div>
         </div>
         <div id='divTabla'>
         <table class="tablaejempo">
@@ -31,7 +31,7 @@ const EjemploProductos = () => {
                               <img alt="sucursal.banderaDescripcion" ng-src="https://imagenes.preciosclaros.gob.ar/comercios/13-1.jpg" fallback-src="/img/comercio-no-image.png" src="https://imagenes.preciosclaros.gob.ar/comercios/13-1.jpg"/>
                             </div></th>
         <td id='hola'>Coperativa Obrera</td>
-        <td>$ 2.600</td>
+        <td>$ 7.600</td>
         <td>0.5 km</td>
       </tr>
     <tr>
@@ -41,8 +41,8 @@ const EjemploProductos = () => {
           </div>
       </th>
       <td>Mercado Libre</td>
-      <td>$ 12</td>
-      <td>12 km</td>
+      <td>$ 2'00</td>
+      <td>12000 km</td>
     </tr>
     <tr>
       <th>3</th>
@@ -55,4 +55,4 @@ const EjemploProductos = () => {
     </div>
   )
 }
-export default EjemploProductos;
+export default Alfajorcofler;
