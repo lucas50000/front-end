@@ -37,6 +37,7 @@
     background-color: rgba(255, 255, 255, 0.744);
     margin-left: 5vw;
     height: 80%;
+    border: 1px rgba(0, 0, 0, 0.597) solid;
 }
 #divTabla{
     padding-top: 20px;
@@ -47,22 +48,24 @@
     margin-left: 7.5vw;
     margin-right: 7.5vw;
     margin-bottom: 2vh;
+   
 }
 
 .tablaejempo tbody{
     font-size: large;
+    
 }
 
 .tablaejempo tr{
     border-top: 2px rgb(156, 156, 156) solid;
     border-bottom: 2px rgb(156, 156, 156) solid;
+    
 }
 .tablaejempo tr:first-child{
     border-top: none;
 }
 
 .contenedor-imagen{
-    border: 1px solid #CBCBCB;
     height: 60px !important;
     width: 60px !important;
     border: 1px solid #CBCBCB;
@@ -73,7 +76,7 @@
     background: #fff;
 }
 #tituloProductoEspecifico{
-    
+
     font-size: 32px;
     text-align: center;
     height: 100%;
@@ -94,10 +97,31 @@
     font-weight: 400;
     align-items: center;
     height: 100%;
+    
+    
+}
+#divprecio{
+    display: flex;
+    gap: 15vw;
+    align-items: center;
     border-bottom: rgb(105, 105, 105) 1px solid;
+}
+#divprecio img{
+    height: 10vh;
 }
 #descripcionProductoEspecifico{
     font-size: 15px;
     margin-top: 25px;
     font-family:sans-serif;
+}
+.imagencofler{
+    margin-top: 10%;
+    margin-left: 15%;
+    width: 70%;
+    height: 70%;
+    grid-row-start: 1;
+    grid-row-end: -1;
+    border-radius: 25px 2px 25px 2px;
+    box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.326);
+    border: BLACK 1PX solid;
 }

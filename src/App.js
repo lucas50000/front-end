@@ -21,6 +21,8 @@ import Nosotros from "./pages/NosotrosPage.js";
 import "./Styles/Components/Pages/NosotrosPage.css";
 import ReportarError from './pages/ReportesPage.js';
 import "./Styles/Components/Pages/ReportesPage.css";
+import Alfajorcofler from "./pages/alfajorcofler.js";
+import Twistos from "./pages/Twistos.js";
 
 
 function App(cont) {
@@ -38,6 +40,9 @@ function App(cont) {
           <Route path='/producto' element={<EjemploProductos/>}/>
           <Route path='/Nosotros' element={<Nosotros/>}/>
           <Route path='/ReportarError' element={<ReportarError/>}/>
+          <Route path='/alfajor' element={<Alfajorcofler/>}/>
+          <Route path='/Twistos' element={<Twistos/>}/>
+
         </Routes>
         <Footer/>
       </BrowserRouter>

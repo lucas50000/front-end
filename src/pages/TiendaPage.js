@@ -1,5 +1,7 @@
-import React from 'react'
-
+import React, {  useEffect } from "react";
+// import { pag } from "../../App";
+// import Home from "../../pages/HomePag";
+import { Link } from "react-router-dom";
 
 const TiendaPage = (props) => {
   return (
@@ -26,8 +28,9 @@ const TiendaPage = (props) => {
                 </div>
               </a>
           </li>
+          
           <li className='producto'>
-              <a href='3' className='productolink'>
+              <a href='#' className='productolink'>
                 <div className='productoContenedor'>
                   <img src="/imagenes/fideos.jpg" className='productoImagen'></img>
                   <div className='productoTexto'>
@@ -37,6 +40,7 @@ const TiendaPage = (props) => {
                 </div>
               </a>
           </li>
+          <Link to="/alfajor" className="no-underline">
           <li className='producto'>
               <a href='3' className='productolink'>
                 <div className='productoContenedor'>
@@ -47,7 +51,7 @@ const TiendaPage = (props) => {
                   </div>
                 </div>
               </a>
-          </li>
+          </li></Link>
           <li className='producto'>
               <a href='3' className='productolink'>
                 <div className='productoContenedor'>
@@ -83,6 +87,7 @@ const TiendaPage = (props) => {
           </li>
         </ol>
     </div>
+    
     </div>
   );
 }
