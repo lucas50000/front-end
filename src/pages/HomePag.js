@@ -9,9 +9,7 @@ const Home = (props) => {
           En esta página, podrás comparar los precios de una amplia variedad de
           productos de diferentes categorías, desde tecnología y moda hasta
           artículos para el hogar y más.
-          <br /> Nuestro objetivo es ofrecerte una experiencia fácil y
-          agradable, Aquí TÚ TIENES EL CONTROL. Esperamos que disfrutes y que
-          encuentres exactamente lo que buscas.
+         
         </p>
         <Link to="/Tienda" className="no-underline">
           <button target="_blank" id="botoninicio">

@@ -14,16 +14,28 @@ const Fideos = () => {
             <h1 class="product-title">Fideos Moños Matarazzo X 500kg</h1>
             <p class="product-price">$1500</p>
             <button class="buy-button">Añadir a Favoritos</button>
+            <div class="valoracion">
+                <input id="radio1" type="radio" name="estrellas" value="5"/>
+                <label for="radio1">★</label>
+                <input id="radio2" type="radio" name="estrellas" value="4"/>
+                <label for="radio2">★</label>
+                <input id="radio3" type="radio" name="estrellas" value="3"/>
+                <label for="radio3">★</label>
+                <input id="radio4" type="radio" name="estrellas" value="2"/>
+                <label for="radio4">★</label>
+                <input id="radio5" type="radio" name="estrellas" value="1"/>
+                <label for="radio5">★</label>
+            </div>
         </div>
     </div>
-  
+   
     <table class="comparison-table">
         <thead>
             <tr>
                 <th>#</th>
                 <th>Comercio</th>
                 <th>Precio</th>
-                <th>Distancia</th>
+                <th>Calificacion</th>
             </tr>
         </thead>
         <tbody>
@@ -31,19 +43,19 @@ const Fideos = () => {
                 <td>1</td>
                 <td>Supermercado A</td>
                 <td>$2,280</td>
-                <td>1.2 km</td>
+                <td>5 ★</td>
             </tr>
             <tr>
                 <td>2</td>
                 <td>Supermercado B</td>
                 <td>$2,300</td>
-                <td>2.5 km</td>
+                <td>2 ★</td>
             </tr>
             <tr>
                 <td>3</td>
                 <td>Supermercado C</td>
                 <td>$8,290</td>
-                <td>3.1 km</td>
+                <td>3 ★</td>
             </tr>
         </tbody>
     </table>

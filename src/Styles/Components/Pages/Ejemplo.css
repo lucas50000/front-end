@@ -99,3 +99,30 @@
 .comparison-table tr:hover {
     background-color: #f1f1f1;
 }
+
+div.valoracion {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    left: 10%;
+    top: 3vh;
+  }
+  
+  div.valoracion input {
+    position: absolute;
+    top: -100px;
+  }
+  
+  div.valoracion label {
+    float: right;
+    color: #333;
+    width: 40px;
+    font-size: 45px;
+    cursor: pointer;
+  }
+  
+  div.valoracion label:hover,
+  div.valoracion label:hover ~ label,
+  div.valoracion input:checked ~ label {
+    color: #dd4;
+  }
