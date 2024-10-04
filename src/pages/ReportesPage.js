@@ -17,7 +17,7 @@ const ReportarError = (props) => {
             <input className="inputsReporte" placeholder="Tu Email..."></input>
             <input className="inputsReporte2" placeholder="Explicame el error..."></input>
             <br></br>
-            <button defaultValue="Tu Email" className="botonReporte">hola </button>
+            <button defaultValue="Tu Email" className="botonReporte">Enviar</button>
           </div>
 
         </div>

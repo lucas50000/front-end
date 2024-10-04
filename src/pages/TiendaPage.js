@@ -19,7 +19,7 @@ const TiendaPage = (props) => {
         <ol id='gridTienda'>
           <Link to="/disco" className="no-underline">
         <li className='producto '>
-              <a href='3' className='productolink'>
+              <a href='/' className='productolink'>
                 <div className='productoContenedor'>
                   <img src="/imagenes/sata.jpg" className='productoImagen'  alt="producto"></img>
                   <div className='productoTexto'>
@@ -44,7 +44,7 @@ const TiendaPage = (props) => {
           </li></Link>
           <Link to="/alfajor" className="no-underline">
           <li className='producto'>
-              <a href='3' className='productolink'>
+              <a href='/' className='productolink'>
                 <div className='productoContenedor'>
                   <img src="/imagenes/Alfajor Cofler Block.jpg" className='productoImagen' alt="producto"></img>
                   <div className='productoTexto'>
@@ -56,7 +56,7 @@ const TiendaPage = (props) => {
           </li></Link>
           <Link to="/grafica" className="no-underline">
           <li className='producto'>
-              <a href='3' className='productolink'>
+              <a href='/' className='productolink'>
                 <div className='productoContenedor'>
                   <img src="/imagenes/4090.jpg"className='productoImagen' alt="producto"></img>
                   <div className='productoTexto'>
@@ -68,7 +68,7 @@ const TiendaPage = (props) => {
           </li></Link>
           <Link to="/Twistos" className="no-underline">
           <li className='producto'>
-              <a href='3' className='productolink'>
+              <a href='/' className='productolink'>
                 <div className='productoContenedor'>
                   <img src="/imagenes/twistos.webp" className='productoImagen' alt="producto"></img>
                   <div className='productoTexto'>
@@ -81,7 +81,7 @@ const TiendaPage = (props) => {
           </Link>
           <Link to="/pan" className="no-underline">
           <li className='producto'>
-              <a href='3' className='productolink'>
+              <a href='/' className='productolink'>
                 <div className='productoContenedor'>
                   <img src="/imagenes/pan.jpg" className='productoImagen' alt="producto"></img>
                   <div className='productoTexto'>
