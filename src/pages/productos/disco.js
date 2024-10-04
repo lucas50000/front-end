@@ -8,7 +8,7 @@ const Disco = () => {
   </form>
     <div class="product-container">
         <div class="product-image">
-        <img src=".\imagenes/sata.jpg" className="imagenEjemplo"/>
+        <img src=".\imagenes/sata.jpg" className="imagenEjemplo" alt='producto'/>
         </div>
         <div class="product-details">
             <h1 class="product-title">Sata ssd 240gb kingston </h1>

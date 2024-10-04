@@ -8,7 +8,7 @@ const Fideos = () => {
   </form>
     <div class="product-container">
         <div class="product-image">
-        <img src="\imagenes\fideos.jpg" className="imagenEjemplo"/>
+        <img src="\imagenes\fideos.jpg" className="imagenEjemplo" alt='producto'/>
         </div>
         <div class="product-details">
             <h1 class="product-title">Fideos Moños Matarazzo X 500kg</h1>

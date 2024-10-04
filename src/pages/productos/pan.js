@@ -8,7 +8,7 @@ const Pan = () => {
   </form>
     <div class="product-container">
         <div class="product-image">
-        <img src="/imagenes/pan.jpg" className="imagenEjemplo"/>
+        <img src="/imagenes/pan.jpg" className="imagenEjemplo" alt='producto'/>
         </div>
         <div class="product-details">
             <h1 class="product-title">Pan Bimbo Blanco Grande </h1>

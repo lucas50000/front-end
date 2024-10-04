@@ -1,34 +1,34 @@
-#dvfooter{
-    flex: 1; 
+#dvfooter {
+    flex: 1;
     width: 100%;
     position: relative;
 }
 
-#footer{
+#footer {
     position: relative;
     bottom: 0;
-    
     width: 100%;
-    background-color: #202020;
-    color: #ffffff; 
+    background-color: #4b4949;
+    color: #fefefe;
     text-shadow: black 2px 2px 2px;
-    padding-left:10px;
+    padding-left: 10px;
     padding-top: 2px;
 }
 
-#fl{
+#fl {
     display: flex;
     flex-direction: row;
     flex: 3;
     justify-content: space-between;
 }
-.boxf{
-    padding-left: 5px ;
+
+.boxf {
+    padding-left: 5px;
     width: 700px;
     padding-top: 5px;
 }
 
-#center{
+#center {
     border-left: 2px solid black;
     border-right: 2px solid black;
 }

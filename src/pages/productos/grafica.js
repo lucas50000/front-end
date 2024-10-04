@@ -8,7 +8,7 @@ const Grafica = () => {
       </form>
         <div class="product-container">
             <div class="product-image">
-            <img src="./imagenes/4090.jpg" className="imagenEjemplo"/>
+            <img src="./imagenes/4090.jpg" className="imagenEjemplo" alt='producto'/>
             </div>
             <div class="product-details">
                 <h1 class="product-title">Cosa grafica que vale mucho xdxdxddd</h1>

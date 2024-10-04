@@ -1,4 +1,4 @@
-import React, {  useEffect } from "react";
+import React from "react";
 // import { pag } from "../../App";
 // import Home from "../../pages/HomePag";
 import { Link } from "react-router-dom";
@@ -21,7 +21,7 @@ const TiendaPage = (props) => {
         <li className='producto '>
               <a href='3' className='productolink'>
                 <div className='productoContenedor'>
-                  <img src="/imagenes/sata.jpg" className='productoImagen'></img>
+                  <img src="/imagenes/sata.jpg" className='productoImagen'  alt="producto"></img>
                   <div className='productoTexto'>
                     <p className='productoDescripcion'>Sata ssd 240gb kingston</p>
                     <h2 className='productoPrecio'>$ 44.999</h2>
@@ -32,9 +32,9 @@ const TiendaPage = (props) => {
           </Link>
           <Link to="/Fideos" className="no-underline">
           <li className='producto'>
-              <a href='#' className='productolink'>
+              <a href='/' className='productolink'>
                 <div className='productoContenedor'>
-                  <img src="/imagenes/fideos.jpg" className='productoImagen'></img>
+                  <img src="/imagenes/fideos.jpg" className='productoImagen' alt="producto"></img>
                   <div className='productoTexto'>
                     <p className='productoDescripcion' id="PD">Fideos Moños Matarazzo X 500 Gr</p>
                     <h2 className='productoPrecio' id="PP">$ 2.275</h2>
@@ -46,7 +46,7 @@ const TiendaPage = (props) => {
           <li className='producto'>
               <a href='3' className='productolink'>
                 <div className='productoContenedor'>
-                  <img src="/imagenes/Alfajor Cofler Block.jpg" className='productoImagen'></img>
+                  <img src="/imagenes/Alfajor Cofler Block.jpg" className='productoImagen' alt="producto"></img>
                   <div className='productoTexto'>
                     <p className='productoDescripcion'>Alfajor Cofler Block X 60 Gr</p>
                     <h2 className='productoPrecio'>$ 962</h2>
@@ -58,7 +58,7 @@ const TiendaPage = (props) => {
           <li className='producto'>
               <a href='3' className='productolink'>
                 <div className='productoContenedor'>
-                  <img src="/imagenes/4090.jpg"className='productoImagen'></img>
+                  <img src="/imagenes/4090.jpg"className='productoImagen' alt="producto"></img>
                   <div className='productoTexto'>
                     <p className='productoDescripcion'>MSI B Video Card, GeForce RTX 4090 GAMING X TRIO 24G NVIDIA Video Cards</p>
                     <h2 className='productoPrecio'>$ 20</h2>
@@ -70,7 +70,7 @@ const TiendaPage = (props) => {
           <li className='producto'>
               <a href='3' className='productolink'>
                 <div className='productoContenedor'>
-                  <img src="/imagenes/twistos.webp" className='productoImagen'></img>
+                  <img src="/imagenes/twistos.webp" className='productoImagen' alt="producto"></img>
                   <div className='productoTexto'>
                     <p className='productoDescripcion'>Twistos minitostaditas quesos 155 gr</p>
                     <h2 className='productoPrecio'>$ 3.743</h2>
@@ -83,7 +83,7 @@ const TiendaPage = (props) => {
           <li className='producto'>
               <a href='3' className='productolink'>
                 <div className='productoContenedor'>
-                  <img src="/imagenes/pan.jpg" className='productoImagen'></img>
+                  <img src="/imagenes/pan.jpg" className='productoImagen' alt="producto"></img>
                   <div className='productoTexto'>
                     <p className='productoDescripcion'>Pan Bimbo Blanco Grande</p>
                     <h2 className='productoPrecio'>$ 1.850</h2>

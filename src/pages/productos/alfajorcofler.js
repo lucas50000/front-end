@@ -8,7 +8,7 @@ const Alfajorcofler = () => {
   </form>
     <div class="product-container">
         <div class="product-image">
-        <img src=".\imagenes\Alfajor Cofler Block.jpg" className="imagenEjemplo"/>
+        <img src=".\imagenes\Alfajor Cofler Block.jpg" className="imagenEjemplo" alt='producto'/>
         </div>
         <div class="product-details">
             <h1 class="product-title">Alfajor Cofler Block </h1>

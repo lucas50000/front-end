@@ -8,7 +8,7 @@ const Twistos = () => {
   </form>
     <div class="product-container">
         <div class="product-image">
-        <img src="\imagenes\twistos.webp" className="imagenEjemplo"/>
+        <img src="\imagenes\twistos.webp" className="imagenEjemplo" alt='producto'/>
         </div>
         <div class="product-details">
             <h1 class="product-title">Twistos Horneados Queso (155g)</h1>
