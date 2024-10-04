@@ -18,6 +18,7 @@ const Home = (props) => {
           </button>
         </Link>
       </div>
+
     
       <div id="imagenes">
         <img src="./imagenes/carrito.jpg" alt="" />
