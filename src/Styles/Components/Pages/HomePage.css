@@ -10,7 +10,7 @@ body {
 
 #bienvenidos {
   display: grid;
-  grid-template-columns: 0.3fr 3fr 6fr 0.5fr;
+  grid-template-columns: 0.1fr 3fr 6fr 0.5fr;
   height: 90vh;
   width: 100%;
   background-color: #FFD6AA;
@@ -18,45 +18,45 @@ body {
   margin-top: 0%;
 }
 
-
-
 #titulo {
   grid-template-columns: 5px;
   grid-column: 2;
   text-align: center;
-  margin-top: 15%;
-  font-size: 300%;
-  width: 80%;
+  margin-top: 12%;
+  font-size: 365%;
+  width: 96%;
   color: black;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #texto {
   grid-column: 3;
-  margin-bottom: 5%;
+  margin-bottom: 3%;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   color: #000000;
-  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-left: 1.5vw;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   text-decoration: none;
   font-style: none;
+
 }
 
 #botoninicio {
   padding: 2px;
   border: 2px black solid;
   cursor: pointer;
-  margin-bottom: 0vh;
   color: rgb(255, 255, 255);
   text-decoration: none;
   background-color: #303036;
   padding: 10px;
   border-radius: 5px;
-  width: 185px;
+  width: 180px;
   height: 50px;
 }
+
+
 
 #imagenes {
   grid-column: 1/-2;
@@ -82,8 +82,3 @@ body {
   height: 100%;
   border-radius: 25px 5px 25px 5px;
 }
-
-.prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
