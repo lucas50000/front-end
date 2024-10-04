@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, {  useEffect } from 'react';
 
 const ContactoPage = (props)=>{
   useEffect(() => {
@@ -23,6 +23,7 @@ const ContactoPage = (props)=>{
         <div id="si">
           <section id="divContacto">
             <h1 id="tituloContacto">Contáctenos</h1>
+            
             <input defaultValue="Nombre" class="intro" id="botonNombre"></input>
             <input defaultValue="Tu correo electrónico" class="intro" id="botonCorreo"></input>
             <input defaultValue="Mensaje opcional" class="intro" id="botonMensaje"></input>
